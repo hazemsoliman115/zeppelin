@@ -188,8 +188,15 @@
       },
       "jobName": "paragraph_1456793995781_-338221254",
       "id": "20160301-005955_1457858959",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:29: error: not found: value graphText\n              graphText.take(2).foreach(println)\n              ^\n"
+      },
       "dateCreated": "Mar 1, 2016 12:59:55 AM",
-      "status": "READY",
+      "dateStarted": "Mar 1, 2016 1:00:04 AM",
+      "dateFinished": "Mar 1, 2016 1:00:04 AM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {

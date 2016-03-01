@@ -126,7 +126,7 @@
     },
     {
       "text": "%sql \nselect age, count(1) value \nfrom bank \nwhere age \u003c ${maxAge\u003d30} \ngroup by age \norder by age",
-      "dateUpdated": "Feb 29, 2016 11:57:23 PM",
+      "dateUpdated": "Mar 1, 2016 9:01:21 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {

@@ -200,7 +200,21 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%pyspark\ndef cleanfile(filename):\n    ret_dict \u003d {}\n    with open(filename) as f:\n        graph_list \u003d []\n        for line in f:\n            ## get the key \n            t_key \u003d \"\"\n            for x in line:\n                if x \u003d\u003d \"(\":\n                    pass\n                elif x \u003d\u003d \",\":\n                    break\n                else:\n                    t_key +\u003d x\n            ## list of preprocessed vertices\n            list_vert \u003d str(line).split(\"Vetrex\")\n            ## list of preprocessed edges\n            list_edges \u003d str(list_vert[-1]).split(\"edge\")\n            ## update last element in vertices\n            list_vert[-1] \u003d list_edges[0]\n            list_vert \u003d list_vert[1:]\n            list_edges \u003d list_edges[1:]\n            ## dict of vertices and edges\n            vert_dict \u003d {}\n            edge_list \u003d []\n            for v in list_vert:\n                ed_v \u003d v\n                list_chs \u003d \" ()List\"\n                for x in list_chs:\n                    ed_v \u003d ed_v.replace(x,\"\")\n                if ed_v[0] \u003d\u003d \",\":\n                    ed_v \u003d ed_v[1:]\n                if ed_v[-1] \u003d\u003d \",\":\n                    ed_v \u003d ed_v[:-1]\n                ded_v \u003d ed_v.split(\",\")\n                vkey \u003d ded_v[0]\n                vval \u003d ded_v[1].split(\".\")\n                vert_dict[vkey] \u003d vval\n            for e in list_edges:\n                ed_e \u003d e\n                list_chs \u003d \" ()\\n\"\n                for x in list_chs:\n                    ed_e \u003d ed_e.replace(x,\"\")\n                if ed_e[0] \u003d\u003d \",\":\n                    ed_e \u003d ed_e[1:]\n                if ed_e[-1] \u003d\u003d \",\":\n                    ed_e \u003d ed_e[:-1]\n                eval \u003d ed_e.split(\",\")\n                edge_list.append(eval)\n                ret_tuple \u003d (t_key,[vert_dict,edge_list])\n            graph_list.append(ret_tuple)\n    return graph_list\n            \n                \n    #print(t_key)\n    #print(list_vert[0])\n    #print(list_vert[1])\n    #print(list_vert[-1])\n    #print(list_edges[0])\n    #print(list_edges[1])\n    #print(list_edges[-1])\n    #print(\"Step 1\")\n    #print(ed_v)\n    #print(ded_v)\n    #print(vkey)\n    #print(vval)\n    #print(\"Step 2\")\n    #print(ed_e)\n    #print(eval)\n    \ndef build_graph(g_dict):\n    # function to build graph, input is a list of vert_dict and list_edge\n    G\u003dnx.DiGraph()\n    for v in g_dict[0].keys():\n        G.add_node(v)\n    for e in g_dict[1]:\n        G.add_edge(e[0],e[1])\n    return G\n    \ndef process_graph(G):\n    return nx.degree_centrality(G)",
+      "dateUpdated": "Mar 1, 2016 1:00:22 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
       "settings": {
         "params": {},
         "forms": {}
@@ -208,6 +222,18 @@
       "jobName": "paragraph_1456794004268_888373564",
       "id": "20160301-010004_630648457",
       "dateCreated": "Mar 1, 2016 1:00:04 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1456794022955_-625982783",
+      "id": "20160301-010022_1469123699",
+      "dateCreated": "Mar 1, 2016 1:00:22 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }

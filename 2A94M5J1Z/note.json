@@ -63,8 +63,8 @@
         "msg": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\nbankText: org.apache.spark.rdd.RDD[String] \u003d ParallelCollectionRDD[0] at parallelize at \u003cconsole\u003e:31\ndefined class Bank\nbank: org.apache.spark.sql.DataFrame \u003d [age: int, job: string, marital: string, education: string, balance: int]\n"
       },
       "dateCreated": "Feb 10, 2015 1:52:59 AM",
-      "dateStarted": "Feb 29, 2016 11:56:05 PM",
-      "dateFinished": "Feb 29, 2016 11:56:56 PM",
+      "dateStarted": "Mar 1, 2016 12:51:21 AM",
+      "dateFinished": "Mar 1, 2016 12:52:08 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

@@ -23,8 +23,15 @@
       },
       "jobName": "paragraph_1456793879237_-1567827309",
       "id": "20160301-005759_907325495",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "import breeze.numerics.sqrt\n\u003cconsole\u003e:25: error: not found: value ca\n       import ca.savitestbed.monarch.storage.HbaseDriver\n              ^\n"
+      },
       "dateCreated": "Mar 1, 2016 12:57:59 AM",
-      "status": "READY",
+      "dateStarted": "Mar 1, 2016 12:58:20 AM",
+      "dateFinished": "Mar 1, 2016 12:58:20 AM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {

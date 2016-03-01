@@ -56,8 +56,15 @@
       },
       "jobName": "paragraph_1456793900394_2133872508",
       "id": "20160301-005820_2046802124",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:26: error: not found: value VmCPUUtil\n       val rid_disctime__cpuutil \u003d VmCPUUtil.calculatePeriodAvgPerRidFromFile(sqlContext, hdfspaths, startTime, endTime).map(s \u003d\u003e ((s._1, s._2._1), s._2._2.toDouble)).coalesce(10)\n                                   ^\n"
+      },
       "dateCreated": "Mar 1, 2016 12:58:20 AM",
-      "status": "READY",
+      "dateStarted": "Mar 1, 2016 12:59:14 AM",
+      "dateFinished": "Mar 1, 2016 12:59:14 AM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {

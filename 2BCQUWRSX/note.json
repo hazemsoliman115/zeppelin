@@ -134,7 +134,21 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "// (time, graph)\nval graphPerT \u003d graphelementsbytime.map(s \u003d\u003e MyFunctions.getLaplacEigen(s._2))\nval graphText \u003d graphelementsbytime.map(s \u003d\u003e (s._1, MyFunctions.Graphtxt(s._2)))",
+      "dateUpdated": "Mar 1, 2016 12:59:55 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
       "settings": {
         "params": {},
         "forms": {}
@@ -142,6 +156,18 @@
       "jobName": "paragraph_1456793980969_-1653323643",
       "id": "20160301-005940_1253135344",
       "dateCreated": "Mar 1, 2016 12:59:40 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1456793995781_-338221254",
+      "id": "20160301-005955_1457858959",
+      "dateCreated": "Mar 1, 2016 12:59:55 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }

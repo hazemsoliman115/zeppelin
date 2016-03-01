@@ -68,7 +68,21 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "// (time:long, Iterable[(id:long, data:Array[Double])])\nval verticesbytime \u003d DtidData.groupByKey()\n// (time:long, Iterbale[((srcid:long, destid:long),BW)])\nval edgesbytime \u003d DtSrcIdDstIdBW.groupByKey()\n// (time: Long, (vertices: (id: Long, data: Array[Double]), edges: ((srcid: Long, destid: Long), BW: double)))\nval graphelementsbytime \u003d verticesbytime.join(edgesbytime)",
+      "dateUpdated": "Mar 1, 2016 12:59:25 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
       "settings": {
         "params": {},
         "forms": {}
@@ -76,6 +90,18 @@
       "jobName": "paragraph_1456793954008_-1368603999",
       "id": "20160301-005914_2088002055",
       "dateCreated": "Mar 1, 2016 12:59:14 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1456793965985_1654768182",
+      "id": "20160301-005925_581217075",
+      "dateCreated": "Mar 1, 2016 12:59:25 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }

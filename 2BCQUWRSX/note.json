@@ -122,8 +122,15 @@
       },
       "jobName": "paragraph_1456793965985_1654768182",
       "id": "20160301-005925_581217075",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "import breeze.linalg._\ndefined module MyFunctions\n"
+      },
       "dateCreated": "Mar 1, 2016 12:59:25 AM",
-      "status": "READY",
+      "dateStarted": "Mar 1, 2016 12:59:41 AM",
+      "dateFinished": "Mar 1, 2016 12:59:43 AM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {

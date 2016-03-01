@@ -89,8 +89,15 @@
       },
       "jobName": "paragraph_1456793954008_-1368603999",
       "id": "20160301-005914_2088002055",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:26: error: not found: value DtidData\n       val verticesbytime \u003d DtidData.groupByKey()\n                            ^\n"
+      },
       "dateCreated": "Mar 1, 2016 12:59:14 AM",
-      "status": "READY",
+      "dateStarted": "Mar 1, 2016 12:59:26 AM",
+      "dateFinished": "Mar 1, 2016 12:59:26 AM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {

@@ -155,8 +155,15 @@
       },
       "jobName": "paragraph_1456793980969_-1653323643",
       "id": "20160301-005940_1253135344",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:31: error: not found: value graphelementsbytime\n       val graphPerT \u003d graphelementsbytime.map(s \u003d\u003e MyFunctions.getLaplacEigen(s._2))\n                       ^\n"
+      },
       "dateCreated": "Mar 1, 2016 12:59:40 AM",
-      "status": "READY",
+      "dateStarted": "Mar 1, 2016 12:59:55 AM",
+      "dateFinished": "Mar 1, 2016 12:59:55 AM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {

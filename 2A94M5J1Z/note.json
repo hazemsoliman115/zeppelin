@@ -190,7 +190,7 @@
     },
     {
       "text": "%sql \nselect age, count(1) value \nfrom bank \nwhere marital\u003d\"${marital\u003dsingle,single|divorced|married}\" \ngroup by age \norder by age",
-      "dateUpdated": "Feb 29, 2016 11:57:27 PM",
+      "dateUpdated": "Mar 1, 2016 9:01:25 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {

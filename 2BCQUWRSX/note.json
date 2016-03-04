@@ -156,14 +156,14 @@
       "jobName": "paragraph_1456793980969_-1653323643",
       "id": "20160301-005940_1253135344",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:31: error: not found: value graphelementsbytime\n       val graphPerT \u003d graphelementsbytime.map(s \u003d\u003e MyFunctions.getLaplacEigen(s._2))\n                       ^\n"
+        "msg": "graphPerT: org.apache.spark.rdd.RDD[breeze.linalg.DenseMatrix[Double]] \u003d MapPartitionsRDD[187] at map at \u003cconsole\u003e:111\ngraphText: org.apache.spark.rdd.RDD[(Long, (Iterable[(String, Long, String)], Iterable[(String, (Long, Long), Double)]))] \u003d MapPartitionsRDD[188] at map at \u003cconsole\u003e:110\n"
       },
       "dateCreated": "Mar 1, 2016 12:59:40 AM",
-      "dateStarted": "Mar 1, 2016 12:59:55 AM",
-      "dateFinished": "Mar 1, 2016 12:59:55 AM",
-      "status": "ERROR",
+      "dateStarted": "Mar 4, 2016 10:20:26 PM",
+      "dateFinished": "Mar 4, 2016 10:20:27 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {

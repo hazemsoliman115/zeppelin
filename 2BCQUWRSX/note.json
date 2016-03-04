@@ -92,11 +92,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "verticesbytime: org.apache.spark.rdd.RDD[(Long, Iterable[(Long, Array[Double])])] \u003d ShuffledRDD[182] at groupByKey at \u003cconsole\u003e:98\nedgesbytime: org.apache.spark.rdd.RDD[(Long, Iterable[((Long, Long), Double)])] \u003d ShuffledRDD[183] at groupByKey at \u003cconsole\u003e:66\ngraphelementsbytime: org.apache.spark.rdd.RDD[(Long, (Iterable[(Long, Array[Double])], Iterable[((Long, Long), Double)]))] \u003d MapPartitionsRDD[186] at join at \u003cconsole\u003e:104\n"
+        "msg": "verticesbytime: org.apache.spark.rdd.RDD[(Long, Iterable[(Long, Array[Double])])] \u003d ShuffledRDD[380] at groupByKey at \u003cconsole\u003e:113\nedgesbytime: org.apache.spark.rdd.RDD[(Long, Iterable[((Long, Long), Double)])] \u003d ShuffledRDD[381] at groupByKey at \u003cconsole\u003e:81\ngraphelementsbytime: org.apache.spark.rdd.RDD[(Long, (Iterable[(Long, Array[Double])], Iterable[((Long, Long), Double)]))] \u003d MapPartitionsRDD[384] at join at \u003cconsole\u003e:119\n"
       },
       "dateCreated": "Mar 1, 2016 12:59:14 AM",
-      "dateStarted": "Mar 4, 2016 10:20:06 PM",
-      "dateFinished": "Mar 4, 2016 10:20:07 PM",
+      "dateStarted": "Mar 4, 2016 10:40:06 PM",
+      "dateFinished": "Mar 4, 2016 10:40:07 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

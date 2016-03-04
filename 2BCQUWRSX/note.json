@@ -300,8 +300,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%matplotlib inline\r\nimport matplotlib as mpl\r\nimport matplotlib.pyplot as plt",
-      "dateUpdated": "Mar 4, 2016 11:59:10 PM",
+      "text": "%pyspark\r\nimport matplotlib as mpl\r\nimport matplotlib.pyplot as plt",
+      "dateUpdated": "Mar 4, 2016 11:59:24 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

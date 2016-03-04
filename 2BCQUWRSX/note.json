@@ -291,11 +291,11 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 225, in \u003cmodule\u003e\n    eval(compiledCode)\n  File \"\u003cstring\u003e\", line 6, in \u003cmodule\u003e\nTypeError: \u0027set\u0027 object does not support indexing\n"
+        "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 225, in \u003cmodule\u003e\n    eval(compiledCode)\n  File \"\u003cstring\u003e\", line 8, in \u003cmodule\u003e\nTypeError: \u0027set\u0027 object does not support indexing\n"
       },
       "dateCreated": "Mar 4, 2016 11:29:50 PM",
-      "dateStarted": "Mar 4, 2016 11:47:45 PM",
-      "dateFinished": "Mar 4, 2016 11:47:46 PM",
+      "dateStarted": "Mar 4, 2016 11:49:46 PM",
+      "dateFinished": "Mar 4, 2016 11:49:47 PM",
       "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },

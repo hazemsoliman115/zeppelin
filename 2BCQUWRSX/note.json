@@ -168,7 +168,7 @@
     },
     {
       "text": "graphText.take(2).foreach(println)\ngraphText.saveAsTextFile(\"hdfs://monarch-master/user/ubuntu/monitoring/Hazem/graph.txt\")",
-      "dateUpdated": "Mar 1, 2016 1:00:04 AM",
+      "dateUpdated": "Mar 4, 2016 10:20:34 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

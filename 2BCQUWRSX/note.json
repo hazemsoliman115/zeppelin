@@ -260,8 +260,8 @@
         "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 225, in \u003cmodule\u003e\n    eval(compiledCode)\n  File \"\u003cstring\u003e\", line 2, in \u003cmodule\u003e\nImportError: No module named networkx\n"
       },
       "dateCreated": "Mar 1, 2016 1:00:22 AM",
-      "dateStarted": "Mar 1, 2016 1:00:35 AM",
-      "dateFinished": "Mar 1, 2016 1:00:35 AM",
+      "dateStarted": "Mar 4, 2016 10:27:25 PM",
+      "dateFinished": "Mar 4, 2016 10:27:25 PM",
       "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },

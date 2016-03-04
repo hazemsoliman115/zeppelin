@@ -69,7 +69,7 @@
     },
     {
       "text": "// (time:long, Iterable[(id:long, data:Array[Double])])\nval verticesbytime \u003d DtidData.groupByKey()\n// (time:long, Iterbale[((srcid:long, destid:long),BW)])\nval edgesbytime \u003d DtSrcIdDstIdBW.groupByKey()\n// (time: Long, (vertices: (id: Long, data: Array[Double]), edges: ((srcid: Long, destid: Long), BW: double)))\nval graphelementsbytime \u003d verticesbytime.join(edgesbytime)",
-      "dateUpdated": "Mar 1, 2016 12:59:25 AM",
+      "dateUpdated": "Mar 4, 2016 10:20:06 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

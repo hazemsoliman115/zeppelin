@@ -291,11 +291,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": ""
+        "msg": "364\n"
       },
       "dateCreated": "Mar 4, 2016 10:32:51 PM",
-      "dateStarted": "Mar 4, 2016 10:43:27 PM",
-      "dateFinished": "Mar 4, 2016 10:43:27 PM",
+      "dateStarted": "Mar 4, 2016 10:43:35 PM",
+      "dateFinished": "Mar 4, 2016 10:43:35 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

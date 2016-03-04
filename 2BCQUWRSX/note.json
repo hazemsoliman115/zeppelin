@@ -266,8 +266,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%pyspark\nprint(type(graph_degree_centrality.take(1)[0][1].values))",
-      "dateUpdated": "Mar 4, 2016 11:10:41 PM",
+      "text": "%pyspark\nprint(type(graph_degree_centrality.take(1)[0][1].values()))",
+      "dateUpdated": "Mar 4, 2016 11:11:02 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

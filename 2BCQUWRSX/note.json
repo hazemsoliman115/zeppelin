@@ -266,8 +266,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%pyspark\ngraph_strongly_connected_components \u003d graph_build.map(lambda s: (s[0],list(nx.strongly_connected_components(s[1])) ))\nprint(graph_strongly_connected_components.take(3))\nmean_cent_list \u003d []\nfor c in graph_strongly_connected_components.take(1)[0][1]:\n    mean_cent \u003d 0\n    for v in list(c):\n        mean_cent +\u003d graph_degree_centrality.take(1)[0][1][v]\n    mean_cent_list.append(mean_cent/len(c))\n    \nprint(mean_cent_list)",
-      "dateUpdated": "Mar 4, 2016 11:50:50 PM",
+      "text": "%pyspark\ngraph_strongly_connected_components \u003d graph_build.map(lambda s: (s[0],list(nx.strongly_connected_components(s[1])) ))\nprint(graph_strongly_connected_components.take(3))\nmean_cent_list \u003d []\nc_size_list \u003d []\nfor c in graph_strongly_connected_components.take(1)[0][1]:\n    mean_cent \u003d 0\n    for v in list(c):\n        mean_cent +\u003d graph_degree_centrality.take(1)[0][1][v]\n    mean_cent_list.append(mean_cent/len(c))\n    c_size_list.append(len(c))\n    \nprint(mean_cent_list)",
+      "dateUpdated": "Mar 4, 2016 11:51:26 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

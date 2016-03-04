@@ -288,8 +288,15 @@
       },
       "jobName": "paragraph_1457130771069_-1522212495",
       "id": "20160304-223251_1266850188",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:43: error: not found: value graph_sc\n              graph_sc.count()\n              ^\n"
+      },
       "dateCreated": "Mar 4, 2016 10:32:51 PM",
-      "status": "READY",
+      "dateStarted": "Mar 4, 2016 10:32:59 PM",
+      "dateFinished": "Mar 4, 2016 10:32:59 PM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {

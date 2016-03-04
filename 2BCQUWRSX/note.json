@@ -267,7 +267,7 @@
     },
     {
       "text": "%pyspark\nprint(graph_sc.count())\nprint(graph_is_directed_acyclic_graph.take(10))",
-      "dateUpdated": "Mar 4, 2016 10:54:47 PM",
+      "dateUpdated": "Mar 4, 2016 10:55:12 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

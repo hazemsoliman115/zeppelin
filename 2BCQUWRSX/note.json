@@ -266,8 +266,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%pyspark\nprint(graph_sc.count())\nprint(graph_is_directed_acyclic_graph.take(10))",
-      "dateUpdated": "Mar 4, 2016 10:55:12 PM",
+      "text": "%pyspark\nprint(graph_sc.count())\nprint(graph_is_weakly_connected.take(10))",
+      "dateUpdated": "Mar 4, 2016 10:57:46 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

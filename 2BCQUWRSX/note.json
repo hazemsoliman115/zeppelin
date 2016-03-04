@@ -301,7 +301,7 @@
     },
     {
       "text": "%pyspark\r\nimport matplotlib as mpl\r\nimport matplotlib.pyplot as plt",
-      "dateUpdated": "Mar 4, 2016 11:59:24 PM",
+      "dateUpdated": "Mar 4, 2016 11:59:29 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -325,7 +325,7 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "matplotlib interpreter not found"
+        "msg": "pyspark\r interpreter not found"
       },
       "dateCreated": "Mar 4, 2016 11:59:08 PM",
       "status": "ERROR",

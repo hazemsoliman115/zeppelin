@@ -288,8 +288,15 @@
       },
       "jobName": "paragraph_1457134190785_1953139476",
       "id": "20160304-232950_367692594",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:1: error: identifier expected but integer literal found.\n       graph_strongly_connected_components \u003d graph_build.map(lambda s: (s[0],nx.strongly_connected_components(s[1])))\n                                                                          ^\n"
+      },
       "dateCreated": "Mar 4, 2016 11:29:50 PM",
-      "status": "READY",
+      "dateStarted": "Mar 4, 2016 11:30:36 PM",
+      "dateFinished": "Mar 4, 2016 11:30:36 PM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {

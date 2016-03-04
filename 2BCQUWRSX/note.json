@@ -266,8 +266,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%pyspark\nprint(graph_sc.count())\nprint(graph_number_connected_components.take(10))",
-      "dateUpdated": "Mar 4, 2016 10:52:17 PM",
+      "text": "%pyspark\nprint(graph_sc.count())\nprint(graph_dag_longest_path_length.take(10))",
+      "dateUpdated": "Mar 4, 2016 10:53:53 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

@@ -266,6 +266,18 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457130771069_-1522212495",
+      "id": "20160304-223251_1266850188",
+      "dateCreated": "Mar 4, 2016 10:32:51 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "text": "//import org.apache.hadoop.conf.Configuration\r\n//import org.apache.hadoop.fs._\r\n\r\n//val hadoopConfig \u003d new Configuration()\r\n//hadoopConfig.addResource(new Path(\"/opt/hadoop-2.5.2/etc/hadoop/core-site.xml\"));\r\n//val hdfs \u003d FileSystem.get(new URL(\"hdfs://monarch-master:50070\"),hadoopConfig)\r\n//FileUtil.copyMerge(hdfs, new Path(\"hdfs://monarch-master/user/ubuntu/monitoring/Hazem/\"), hdfs, new Path(\"hdfs://monarch-master/user/ubuntu/monitoring/Hazem/collectedgraph.txt\"), false, hadoopConfig, null)",
       "dateUpdated": "Mar 1, 2016 1:00:47 AM",
       "config": {

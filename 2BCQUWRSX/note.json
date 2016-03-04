@@ -291,11 +291,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "res59: Long \u003d 0\n"
+        "msg": "res109: Long \u003d 7598\n"
       },
       "dateCreated": "Mar 4, 2016 10:32:51 PM",
-      "dateStarted": "Mar 4, 2016 10:34:45 PM",
-      "dateFinished": "Mar 4, 2016 10:34:46 PM",
+      "dateStarted": "Mar 4, 2016 10:38:03 PM",
+      "dateFinished": "Mar 4, 2016 10:39:58 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

@@ -322,8 +322,14 @@
       },
       "jobName": "paragraph_1457135948777_682089683",
       "id": "20160304-235908_960367813",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "matplotlib interpreter not found"
+      },
       "dateCreated": "Mar 4, 2016 11:59:08 PM",
-      "status": "READY",
+      "status": "ERROR",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {

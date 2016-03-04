@@ -90,14 +90,14 @@
       "jobName": "paragraph_1456793954008_-1368603999",
       "id": "20160301-005914_2088002055",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:26: error: not found: value DtidData\n       val verticesbytime \u003d DtidData.groupByKey()\n                            ^\n"
+        "msg": "verticesbytime: org.apache.spark.rdd.RDD[(Long, Iterable[(Long, Array[Double])])] \u003d ShuffledRDD[182] at groupByKey at \u003cconsole\u003e:98\nedgesbytime: org.apache.spark.rdd.RDD[(Long, Iterable[((Long, Long), Double)])] \u003d ShuffledRDD[183] at groupByKey at \u003cconsole\u003e:66\ngraphelementsbytime: org.apache.spark.rdd.RDD[(Long, (Iterable[(Long, Array[Double])], Iterable[((Long, Long), Double)]))] \u003d MapPartitionsRDD[186] at join at \u003cconsole\u003e:104\n"
       },
       "dateCreated": "Mar 1, 2016 12:59:14 AM",
-      "dateStarted": "Mar 1, 2016 12:59:26 AM",
-      "dateFinished": "Mar 1, 2016 12:59:26 AM",
-      "status": "ERROR",
+      "dateStarted": "Mar 4, 2016 10:20:06 PM",
+      "dateFinished": "Mar 4, 2016 10:20:07 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {

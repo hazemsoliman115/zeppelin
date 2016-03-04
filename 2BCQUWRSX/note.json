@@ -266,8 +266,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "graph_sc.count()",
-      "dateUpdated": "Mar 4, 2016 10:32:59 PM",
+      "text": "%pyspark\ngraph_sc.count()",
+      "dateUpdated": "Mar 4, 2016 10:33:12 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

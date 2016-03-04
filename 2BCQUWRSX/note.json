@@ -128,8 +128,8 @@
         "msg": "import breeze.linalg._\ndefined module MyFunctions\n"
       },
       "dateCreated": "Mar 1, 2016 12:59:25 AM",
-      "dateStarted": "Mar 4, 2016 10:20:11 PM",
-      "dateFinished": "Mar 4, 2016 10:20:13 PM",
+      "dateStarted": "Mar 4, 2016 10:40:10 PM",
+      "dateFinished": "Mar 4, 2016 10:40:11 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

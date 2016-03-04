@@ -266,7 +266,22 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "graph_sc.count()",
+      "dateUpdated": "Mar 4, 2016 10:32:59 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
       "settings": {
         "params": {},
         "forms": {}

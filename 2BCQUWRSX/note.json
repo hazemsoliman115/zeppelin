@@ -255,14 +255,14 @@
       "jobName": "paragraph_1456794022955_-625982783",
       "id": "20160301-010022_1469123699",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 223, in \u003cmodule\u003e\n    compiledCode \u003d compile(final_code, \"\u003cstring\u003e\", \"exec\")\n  File \"\u003cstring\u003e\", line 18\n    print(graph_degree_radius.take(10))\n        ^\nSyntaxError: invalid syntax\n"
+        "msg": "[(\u002712140485\u0027, False), (\u002712140486\u0027, False), (\u002712140487\u0027, False), (\u002712140488\u0027, False), (\u002712140489\u0027, False), (\u002712140490\u0027, False), (\u002712140491\u0027, False), (\u002712140492\u0027, False), (\u002712140493\u0027, False), (\u002712140494\u0027, False)]\n"
       },
       "dateCreated": "Mar 1, 2016 1:00:22 AM",
-      "dateStarted": "Mar 4, 2016 10:59:08 PM",
-      "dateFinished": "Mar 4, 2016 10:59:09 PM",
-      "status": "ERROR",
+      "dateStarted": "Mar 4, 2016 10:59:28 PM",
+      "dateFinished": "Mar 4, 2016 10:59:28 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {

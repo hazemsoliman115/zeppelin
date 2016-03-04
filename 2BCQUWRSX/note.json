@@ -291,11 +291,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "\u003ctype \u0027dict\u0027\u003e\n"
+        "msg": "\u003ctype \u0027builtin_function_or_method\u0027\u003e\n"
       },
       "dateCreated": "Mar 4, 2016 11:09:38 PM",
-      "dateStarted": "Mar 4, 2016 11:10:28 PM",
-      "dateFinished": "Mar 4, 2016 11:10:28 PM",
+      "dateStarted": "Mar 4, 2016 11:10:41 PM",
+      "dateFinished": "Mar 4, 2016 11:10:41 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

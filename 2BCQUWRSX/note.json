@@ -255,14 +255,14 @@
       "jobName": "paragraph_1456794022955_-625982783",
       "id": "20160301-010022_1469123699",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 225, in \u003cmodule\u003e\n    eval(compiledCode)\n  File \"\u003cstring\u003e\", line 2, in \u003cmodule\u003e\nImportError: No module named networkx\n"
+        "msg": "[]\n"
       },
       "dateCreated": "Mar 1, 2016 1:00:22 AM",
-      "dateStarted": "Mar 4, 2016 10:27:25 PM",
-      "dateFinished": "Mar 4, 2016 10:27:25 PM",
-      "status": "ERROR",
+      "dateStarted": "Mar 4, 2016 10:32:27 PM",
+      "dateFinished": "Mar 4, 2016 10:32:29 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {

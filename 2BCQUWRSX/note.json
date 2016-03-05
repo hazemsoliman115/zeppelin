@@ -294,8 +294,8 @@
         "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 225, in \u003cmodule\u003e\n    eval(compiledCode)\n  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\nImportError: No module named matplotlib\n"
       },
       "dateCreated": "Mar 4, 2016 11:29:50 PM",
-      "dateStarted": "Mar 5, 2016 12:00:35 AM",
-      "dateFinished": "Mar 5, 2016 12:00:35 AM",
+      "dateStarted": "Mar 5, 2016 12:15:57 AM",
+      "dateFinished": "Mar 5, 2016 12:15:57 AM",
       "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },

@@ -301,7 +301,7 @@
     },
     {
       "text": "%pyspark\r\nimport matplotlib as mpl\r\nimport matplotlib.pyplot as plt",
-      "dateUpdated": "Mar 5, 2016 12:00:12 AM",
+      "dateUpdated": "Mar 5, 2016 12:00:19 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {

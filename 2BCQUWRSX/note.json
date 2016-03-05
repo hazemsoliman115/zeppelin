@@ -266,8 +266,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%pyspark\nimport matplotlib as mpl\nimport matplotlib.pyplot as plt\ngraph_strongly_connected_components \u003d graph_build.map(lambda s: (s[0],list(nx.strongly_connected_components(s[1])) ))\nprint(graph_strongly_connected_components.take(3))\nmean_cent_list \u003d []\nmax_cent_list \u003d []\nc_size_list \u003d []\nfor c in graph_strongly_connected_components.take(1)[0][1]:\n    mean_cent \u003d 0\n    max_cent \u003d []\n    for v in list(c):\n        mean_cent +\u003d graph_degree_centrality.take(1)[0][1][v]\n        max_cent.append(graph_degree_centrality.take(1)[0][1][v])\n    mean_cent_list.append(mean_cent/len(c))\n    max_cent_list.append(max(max_cent))\n    c_size_list.append(len(c))\n    \nprint(mean_cent_list)\nprint(max_cent_list)\nprint(c_size_list)\nplt()",
-      "dateUpdated": "Mar 5, 2016 12:19:28 AM",
+      "text": "%pyspark\nimport matplotlib as mpl\nimport matplotlib.pyplot as plt\ngraph_strongly_connected_components \u003d graph_build.map(lambda s: (s[0],list(nx.strongly_connected_components(s[1])) ))\nprint(graph_strongly_connected_components.take(3))\nmean_cent_list \u003d []\nmax_cent_list \u003d []\nc_size_list \u003d []\nfor c in graph_strongly_connected_components.take(1)[0][1]:\n    mean_cent \u003d 0\n    max_cent \u003d []\n    for v in list(c):\n        mean_cent +\u003d graph_degree_centrality.take(1)[0][1][v]\n        max_cent.append(graph_degree_centrality.take(1)[0][1][v])\n    mean_cent_list.append(mean_cent/len(c))\n    max_cent_list.append(max(max_cent))\n    c_size_list.append(len(c))\n    \nprint(mean_cent_list)\nprint(max_cent_list)\nprint(c_size_list)\nplt(c_size_list,max_cent_list)",
+      "dateUpdated": "Mar 5, 2016 12:19:35 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {

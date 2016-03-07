@@ -434,8 +434,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\ndesc df",
-      "dateUpdated": "Mar 7, 2016 7:43:53 PM",
+      "text": "%sql\ndesc graph_degree_centrality_mean",
+      "dateUpdated": "Mar 7, 2016 7:44:03 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

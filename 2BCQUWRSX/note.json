@@ -470,14 +470,14 @@
       "jobName": "paragraph_1456794055466_-1162460667",
       "id": "20160301-010055_539077724",
       "result": {
-        "code": "SUCCESS",
-        "type": "TABLE",
-        "msg": "c\n9\n9\n9\n9\n15\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n11\n9\n9\n9\n9\n9\n9\n9\n11\n9\n9\n9\n9\n9\n9\n9\n9\n9\n13\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n10\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n10\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n11\n30\n30\n29\n27\n27\n27\n29\n28\n29\n28\n28\n28\n28\n29\n29\n28\n28\n28\n27\n28\n28\n28\n30\n28\n28\n28\n28\n28\n28\n28\n28\n27\n28\n28\n28\n27\n28\n28\n28\n28\n28\n28\n28\n28\n28\n28\n28\n27\n27\n27\n27\n28\n28\n28\n28\n27\n28\n28\n28\n28\n27\n27\n27\n28\n28\n27\n28\n28\n27\n27\n27\n27\n27\n27\n27\n27\n27\n27\n27\n28\n28\n28\n27\n28\n27\n27\n27\n27\n27\n28\n28\n28\n27\n28\n28\n27\n28\n28\n28\n28\n28\n26\n28\n28\n28\n28\n28\n27\n28\n28\n28\n28\n29\n28\n29\n28\n28\n28\n28\n28\n29\n28\n28\n28\n28\n29\n28\n28\n28\n28\n28\n28\n28\n29\n29\n29\n28\n28\n28\n27\n27\n28\n29\n28\n28\n27\n28\n28\n28\n28\n28\n28\n27\n27\n26\n27\n28\n27\n27\n26\n27\n27\n27\n26\n26\n27\n27\n27\n28\n28\n28\n28\n27\n27\n28\n29\n28\n27\n28\n28\n30\n28\n28\n28\n30\n28\n31\n28\n19\n28\n30\n28\n28\n28\n28\n28\n28\n28\n28\n31\n29\n28\n27\n30\n28\n28\n28\n27\n28\n28\n27\n29\n28\n28\n28\n28\n28\n"
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "java.lang.NullPointerException\n\tat org.apache.zeppelin.postgresql.PostgreSqlInterpreter.executeSql(PostgreSqlInterpreter.java:201)\n\tat org.apache.zeppelin.postgresql.PostgreSqlInterpreter.interpret(PostgreSqlInterpreter.java:288)\n\tat org.apache.zeppelin.interpreter.ClassloaderInterpreter.interpret(ClassloaderInterpreter.java:57)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:93)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:300)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:169)\n\tat org.apache.zeppelin.scheduler.FIFOScheduler$1.run(FIFOScheduler.java:134)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:262)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\tat java.lang.Thread.run(Thread.java:745)\n"
       },
       "dateCreated": "Mar 1, 2016 1:00:55 AM",
-      "dateStarted": "Mar 7, 2016 8:00:43 PM",
-      "dateFinished": "Mar 7, 2016 8:00:44 PM",
-      "status": "FINISHED",
+      "dateStarted": "Mar 7, 2016 8:01:34 PM",
+      "dateFinished": "Mar 7, 2016 8:01:34 PM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {

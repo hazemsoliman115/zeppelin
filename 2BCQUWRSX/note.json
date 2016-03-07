@@ -434,8 +434,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\ndesc graph_degree_centrality_mean",
-      "dateUpdated": "Mar 7, 2016 7:46:49 PM",
+      "text": "%pyspark\nimport matplotlib\nmatplotlib.use(\u0027Agg\u0027)\nimport matplot",
+      "dateUpdated": "Mar 7, 2016 7:52:01 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -471,7 +471,7 @@
           }
         },
         "enabled": true,
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},

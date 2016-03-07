@@ -115,14 +115,14 @@
       "jobName": "paragraph_1423500782552_-1439281894",
       "id": "20150210-015302_1492795503",
       "result": {
-        "code": "ERROR",
-        "type": "TEXT",
-        "msg": "java.lang.NullPointerException\n\tat org.apache.zeppelin.postgresql.PostgreSqlInterpreter.executeSql(PostgreSqlInterpreter.java:201)\n\tat org.apache.zeppelin.postgresql.PostgreSqlInterpreter.interpret(PostgreSqlInterpreter.java:288)\n\tat org.apache.zeppelin.interpreter.ClassloaderInterpreter.interpret(ClassloaderInterpreter.java:57)\n\tat org.apache.zeppelin.interpreter.LazyOpenInterpreter.interpret(LazyOpenInterpreter.java:93)\n\tat org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer$InterpretJob.jobRun(RemoteInterpreterServer.java:300)\n\tat org.apache.zeppelin.scheduler.Job.run(Job.java:169)\n\tat org.apache.zeppelin.scheduler.FIFOScheduler$1.run(FIFOScheduler.java:134)\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:262)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)\n\tat java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)\n\tat java.lang.Thread.run(Thread.java:745)\n"
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "age\tvalue\n19\t4\n20\t3\n21\t7\n22\t9\n23\t20\n24\t24\n25\t44\n26\t77\n27\t94\n28\t103\n29\t97\n"
       },
       "dateCreated": "Feb 10, 2015 1:53:02 AM",
-      "dateStarted": "Mar 7, 2016 8:02:39 PM",
-      "dateFinished": "Mar 7, 2016 8:02:39 PM",
-      "status": "ERROR",
+      "dateStarted": "Mar 7, 2016 8:02:47 PM",
+      "dateFinished": "Mar 7, 2016 8:02:48 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {

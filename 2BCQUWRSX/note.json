@@ -435,11 +435,11 @@
     },
     {
       "text": "%sql\ndesc graph_degree_centrality_mean",
-      "dateUpdated": "Mar 7, 2016 7:44:21 PM",
+      "dateUpdated": "Mar 7, 2016 7:45:36 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
-          "mode": "multiBarChart",
+          "mode": "table",
           "height": 300.0,
           "optionOpen": false,
           "keys": [

@@ -435,11 +435,11 @@
     },
     {
       "text": "%sql\nselect * from graph_number_strongly_connected_components",
-      "dateUpdated": "Mar 7, 2016 8:01:19 PM",
+      "dateUpdated": "Mar 7, 2016 8:01:20 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
-          "mode": "lineChart",
+          "mode": "scatterChart",
           "height": 300.0,
           "optionOpen": false,
           "keys": [

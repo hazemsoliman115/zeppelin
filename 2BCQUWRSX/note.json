@@ -434,6 +434,18 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457379826449_1546492297",
+      "id": "20160307-194346_487210858",
+      "dateCreated": "Mar 7, 2016 7:43:46 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "text": "%sql\nselect * from graph_degree_centrality_mean",
       "dateUpdated": "Mar 7, 2016 7:42:41 PM",
       "config": {

@@ -434,17 +434,29 @@
     },
     {
       "text": "%sql\nselect * from graph_degree_centrality_mean",
-      "dateUpdated": "Mar 7, 2016 7:35:50 PM",
+      "dateUpdated": "Mar 7, 2016 7:35:55 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
-          "mode": "table",
+          "mode": "multiBarChart",
           "height": 300.0,
           "optionOpen": false,
-          "keys": [],
+          "keys": [
+            {
+              "name": "_1",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
           "values": [],
           "groups": [],
-          "scatter": {}
+          "scatter": {
+            "xAxis": {
+              "name": "_1",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          }
         },
         "enabled": true
       },

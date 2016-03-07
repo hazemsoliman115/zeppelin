@@ -435,7 +435,7 @@
     },
     {
       "text": "%sql\nselect * from graph_degree_centrality_mean",
-      "dateUpdated": "Mar 7, 2016 7:37:48 PM",
+      "dateUpdated": "Mar 7, 2016 7:37:59 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -446,7 +446,8 @@
             {
               "name": "_1",
               "index": 0.0,
-              "aggr": "sum"
+              "aggr": "sum",
+              "$$hashKey": "object:602"
             }
           ],
           "values": [],

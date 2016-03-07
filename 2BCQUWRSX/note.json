@@ -424,11 +424,11 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 225, in \u003cmodule\u003e\n    eval(compiledCode)\n  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n  File \"/opt/spark/spark-1.6.0-bin-hadoop2.6/python/pyspark/sql/context.py\", line 426, in createDataFrame\n    rdd, schema \u003d self._createFromRDD(data, schema, samplingRatio)\n  File \"/opt/spark/spark-1.6.0-bin-hadoop2.6/python/pyspark/sql/context.py\", line 313, in _createFromRDD\n    struct \u003d self._inferSchema(rdd, samplingRatio)\n  File \"/opt/spark/spark-1.6.0-bin-hadoop2.6/python/pyspark/sql/context.py\", line 266, in _inferSchema\n    schema \u003d _infer_schema(first)\n  File \"/opt/spark/spark-1.6.0-bin-hadoop2.6/python/pyspark/sql/types.py\", line 831, in _infer_schema\n    raise TypeError(\"Can not infer schema for type: %s\" % type(row))\nTypeError: Can not infer schema for type: \u003ctype \u0027float\u0027\u003e\n"
+        "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 225, in \u003cmodule\u003e\n    eval(compiledCode)\n  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\n  File \"/opt/spark/spark-1.6.0-bin-hadoop2.6/python/pyspark/sql/context.py\", line 423, in createDataFrame\n    raise TypeError(\"data is already a DataFrame\")\nTypeError: data is already a DataFrame\n"
       },
       "dateCreated": "Mar 1, 2016 1:00:47 AM",
-      "dateStarted": "Mar 7, 2016 7:34:00 PM",
-      "dateFinished": "Mar 7, 2016 7:34:00 PM",
+      "dateStarted": "Mar 7, 2016 7:35:29 PM",
+      "dateFinished": "Mar 7, 2016 7:35:29 PM",
       "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },

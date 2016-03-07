@@ -576,7 +576,22 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%pyspark\nschemaPeople \u003d sqlContext.createDataFrame(mixed_list_RDD)\nschemaPeople.registerTempTable(\"mixed_list_RDD\")",
+      "dateUpdated": "Mar 7, 2016 8:23:39 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
       "settings": {
         "params": {},
         "forms": {}
@@ -584,6 +599,18 @@
       "jobName": "paragraph_1457381342610_-764365437",
       "id": "20160307-200902_1628616442",
       "dateCreated": "Mar 7, 2016 8:09:02 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457382219375_-213917288",
+      "id": "20160307-202339_790915129",
+      "dateCreated": "Mar 7, 2016 8:23:39 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }

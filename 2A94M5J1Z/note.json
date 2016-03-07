@@ -91,8 +91,15 @@
       },
       "jobName": "paragraph_1457381112768_-1964146612",
       "id": "20160307-200512_1421982571",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TABLE",
+        "msg": "col_name\tdata_type\tcomment\nage\tint\t\njob\tstring\t\nmarital\tstring\t\neducation\tstring\t\nbalance\tint\t\n"
+      },
       "dateCreated": "Mar 7, 2016 8:05:12 PM",
-      "status": "READY",
+      "dateStarted": "Mar 7, 2016 8:05:23 PM",
+      "dateFinished": "Mar 7, 2016 8:05:23 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {

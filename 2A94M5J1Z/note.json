@@ -69,6 +69,18 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457381112768_-1964146612",
+      "id": "20160307-200512_1421982571",
+      "dateCreated": "Mar 7, 2016 8:05:12 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "text": "%sql \nselect age, count(1) value\nfrom bank \nwhere age \u003c 30 \ngroup by age \norder by age",
       "dateUpdated": "Mar 7, 2016 8:02:47 PM",
       "config": {

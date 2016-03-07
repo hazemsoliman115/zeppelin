@@ -423,14 +423,14 @@
       "jobName": "paragraph_1456794047167_1944386701",
       "id": "20160301-010047_406727844",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 223, in \u003cmodule\u003e\n    compiledCode \u003d compile(final_code, \"\u003cstring\u003e\", \"exec\")\n  File \"\u003cstring\u003e\", line 3\n    desc \u003cdf\u003e\n            ^\nSyntaxError: invalid syntax\n"
+        "msg": ""
       },
       "dateCreated": "Mar 1, 2016 1:00:47 AM",
-      "dateStarted": "Mar 7, 2016 7:43:32 PM",
-      "dateFinished": "Mar 7, 2016 7:43:33 PM",
-      "status": "ERROR",
+      "dateStarted": "Mar 7, 2016 7:43:44 PM",
+      "dateFinished": "Mar 7, 2016 7:43:44 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {

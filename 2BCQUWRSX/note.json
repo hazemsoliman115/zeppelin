@@ -434,8 +434,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%psql\nselect c from graph_degree_centrality_mean",
-      "dateUpdated": "Mar 7, 2016 7:59:37 PM",
+      "text": "%psql\nselect * from graph_degree_centrality_mean",
+      "dateUpdated": "Mar 7, 2016 7:59:41 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

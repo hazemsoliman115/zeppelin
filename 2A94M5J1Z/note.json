@@ -60,11 +60,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\nbankText: org.apache.spark.rdd.RDD[String] \u003d ParallelCollectionRDD[0] at parallelize at \u003cconsole\u003e:37\ndefined class Bank\nbank: org.apache.spark.sql.DataFrame \u003d [age: int, job: string, marital: string, education: string, balance: int]\n"
+        "msg": "import org.apache.commons.io.IOUtils\nimport java.net.URL\nimport java.nio.charset.Charset\nbankText: org.apache.spark.rdd.RDD[String] \u003d ParallelCollectionRDD[1829] at parallelize at \u003cconsole\u003e:67\ndefined class Bank\nbank: org.apache.spark.sql.DataFrame \u003d [age: int, job: string, marital: string, education: string, balance: int]\n"
       },
       "dateCreated": "Feb 10, 2015 1:52:59 AM",
-      "dateStarted": "Mar 1, 2016 8:46:24 PM",
-      "dateFinished": "Mar 1, 2016 8:47:12 PM",
+      "dateStarted": "Mar 7, 2016 8:02:28 PM",
+      "dateFinished": "Mar 7, 2016 8:02:32 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

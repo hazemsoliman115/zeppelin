@@ -401,7 +401,7 @@
     },
     {
       "text": "%pyspark\ndf \u003d graph_degree_centrality_mean.map(lambda x: (x, )).toDF()\n\n# Register to use in SQL\ndf.registerTempTable(\u0027graph_degree_centrality_mean\u0027)",
-      "dateUpdated": "Mar 7, 2016 7:35:43 PM",
+      "dateUpdated": "Mar 7, 2016 7:37:56 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -413,7 +413,8 @@
           "groups": [],
           "scatter": {}
         },
-        "enabled": true
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},

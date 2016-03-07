@@ -435,19 +435,18 @@
     },
     {
       "text": "%sql\nselect * from graph_degree_centrality_mean",
-      "dateUpdated": "Mar 7, 2016 7:37:59 PM",
+      "dateUpdated": "Mar 7, 2016 7:38:02 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
-          "mode": "stackedAreaChart",
+          "mode": "lineChart",
           "height": 300.0,
           "optionOpen": true,
           "keys": [
             {
               "name": "_1",
               "index": 0.0,
-              "aggr": "sum",
-              "$$hashKey": "object:602"
+              "aggr": "sum"
             }
           ],
           "values": [],

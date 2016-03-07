@@ -434,8 +434,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\nselect c from graph_degree_centrality_mean\ngroup by c\norder by c",
-      "dateUpdated": "Mar 7, 2016 7:56:45 PM",
+      "text": "%psql\nselect c from graph_degree_centrality_mean\ngroup by c\norder by c",
+      "dateUpdated": "Mar 7, 2016 7:59:20 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -461,7 +461,7 @@
           "lineWithFocus": false
         },
         "enabled": true,
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},

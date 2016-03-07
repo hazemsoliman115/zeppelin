@@ -70,7 +70,7 @@
     },
     {
       "text": "%sql \nselect age, count(1) value\nfrom bank \nwhere age \u003c 30 \ngroup by age \norder by age",
-      "dateUpdated": "Mar 7, 2016 7:42:22 PM",
+      "dateUpdated": "Mar 7, 2016 8:02:35 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {

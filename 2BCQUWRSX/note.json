@@ -423,14 +423,14 @@
       "jobName": "paragraph_1456794047167_1944386701",
       "id": "20160301-010047_406727844",
       "result": {
-        "code": "SUCCESS",
+        "code": "ERROR",
         "type": "TEXT",
-        "msg": ""
+        "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 225, in \u003cmodule\u003e\n    eval(compiledCode)\n  File \"\u003cstring\u003e\", line 1, in \u003cmodule\u003e\nNameError: name \u0027createDataFrame\u0027 is not defined\n"
       },
       "dateCreated": "Mar 1, 2016 1:00:47 AM",
-      "dateStarted": "Mar 7, 2016 7:43:44 PM",
-      "dateFinished": "Mar 7, 2016 7:43:44 PM",
-      "status": "FINISHED",
+      "dateStarted": "Mar 7, 2016 7:46:32 PM",
+      "dateFinished": "Mar 7, 2016 7:46:32 PM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {

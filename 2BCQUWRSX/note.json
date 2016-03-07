@@ -492,11 +492,11 @@
     },
     {
       "text": "%sql\nselect c from graph_degree_centrality_mean",
-      "dateUpdated": "Mar 7, 2016 7:46:57 PM",
+      "dateUpdated": "Mar 7, 2016 7:46:59 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
-          "mode": "multiBarChart",
+          "mode": "pieChart",
           "height": 300.0,
           "optionOpen": false,
           "keys": [

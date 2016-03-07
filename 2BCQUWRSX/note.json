@@ -487,8 +487,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%pyspark\ndf \u003d sqlc.createDataFrame(graph_number_strongly_connected_components.map(lambda x: (x[1], )),schema \u003d  [\u0027c\u0027])\n\n# Register to use in SQL\ndf.registerTempTable(\u0027graph_number_strongly_connected_components\u0027)",
-      "dateUpdated": "Mar 7, 2016 8:08:14 PM",
+      "text": "%pyspark\ndf \u003d sqlc.createDataFrame(graph_degree_centrality_mean.map(lambda x: (x[1], )),schema \u003d  [\u0027c\u0027])\n\n# Register to use in SQL\ndf.registerTempTable(\u0027graph_degree_centrality_mean\u0027)",
+      "dateUpdated": "Mar 7, 2016 8:08:32 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -509,6 +509,18 @@
       "jobName": "paragraph_1456794065716_775534867",
       "id": "20160301-010105_1137661827",
       "dateCreated": "Mar 1, 2016 1:01:05 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457381312547_-1247255955",
+      "id": "20160307-200832_1480401272",
+      "dateCreated": "Mar 7, 2016 8:08:32 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }

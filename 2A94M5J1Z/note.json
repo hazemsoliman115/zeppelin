@@ -70,11 +70,11 @@
     },
     {
       "text": "%sql\ndesc bank",
-      "dateUpdated": "Mar 7, 2016 8:05:30 PM",
+      "dateUpdated": "Mar 7, 2016 8:05:31 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
-          "mode": "multiBarChart",
+          "mode": "table",
           "height": 300.0,
           "optionOpen": false,
           "keys": [

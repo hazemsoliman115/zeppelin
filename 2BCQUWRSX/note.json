@@ -520,7 +520,21 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%sql\nselect c, count(1) value\nfrom graph_degree_centrality_mean\ngroup by c \norder by c",
+      "dateUpdated": "Mar 7, 2016 8:09:02 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
       "settings": {
         "params": {},
         "forms": {}
@@ -528,6 +542,18 @@
       "jobName": "paragraph_1457381312547_-1247255955",
       "id": "20160307-200832_1480401272",
       "dateCreated": "Mar 7, 2016 8:08:32 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457381342610_-764365437",
+      "id": "20160307-200902_1628616442",
+      "dateCreated": "Mar 7, 2016 8:09:02 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }

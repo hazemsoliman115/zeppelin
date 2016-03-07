@@ -400,8 +400,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%pyspark\ndf \u003d sqlc.createDataFrame(graph_degree_centrality_mean.map(lambda x: (x, )).toDF())\n\n# Register to use in SQL\ndf.registerTempTable(\u0027graph_degree_centrality_mean\u0027)",
-      "dateUpdated": "Mar 7, 2016 7:35:28 PM",
+      "text": "%pyspark\ndf \u003d graph_degree_centrality_mean.map(lambda x: (x, )).toDF()\n\n# Register to use in SQL\ndf.registerTempTable(\u0027graph_degree_centrality_mean\u0027)",
+      "dateUpdated": "Mar 7, 2016 7:35:43 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

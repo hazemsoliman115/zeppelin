@@ -69,8 +69,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql \nselect age, count(1) value\nfrom bank \nwhere age \u003c 30 \ngroup by age \norder by age",
-      "dateUpdated": "Mar 7, 2016 8:02:35 PM",
+      "text": "%psql \nselect age, count(1) value\nfrom bank \nwhere age \u003c 30 \ngroup by age \norder by age",
+      "dateUpdated": "Mar 7, 2016 8:02:39 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {
@@ -106,7 +106,7 @@
           }
         },
         "enabled": true,
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},

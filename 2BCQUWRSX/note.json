@@ -435,11 +435,11 @@
     },
     {
       "text": "%sql\nselect * from graph_degree_centrality_mean",
-      "dateUpdated": "Mar 7, 2016 7:38:02 PM",
+      "dateUpdated": "Mar 7, 2016 7:38:06 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
-          "mode": "lineChart",
+          "mode": "lineWithFocusChart",
           "height": 300.0,
           "optionOpen": true,
           "keys": [
@@ -457,7 +457,8 @@
               "index": 0.0,
               "aggr": "sum"
             }
-          }
+          },
+          "lineWithFocus": true
         },
         "enabled": true,
         "editorMode": "ace/mode/sql"

@@ -434,8 +434,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\nselect * from graph_number_strongly_connected_components",
-      "dateUpdated": "Mar 7, 2016 8:01:24 PM",
+      "text": "%psql\nselect * from graph_number_strongly_connected_components",
+      "dateUpdated": "Mar 7, 2016 8:01:34 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -461,7 +461,7 @@
           "lineWithFocus": false
         },
         "enabled": true,
-        "editorMode": "ace/mode/sql"
+        "editorMode": "ace/mode/scala"
       },
       "settings": {
         "params": {},

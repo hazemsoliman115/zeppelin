@@ -492,16 +492,16 @@
     },
     {
       "text": "%sql\nselect c from graph_degree_centrality_mean",
-      "dateUpdated": "Mar 7, 2016 7:46:54 PM",
+      "dateUpdated": "Mar 7, 2016 7:46:57 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
-          "mode": "table",
+          "mode": "multiBarChart",
           "height": 300.0,
           "optionOpen": false,
           "keys": [
             {
-              "name": "_1",
+              "name": "c",
               "index": 0.0,
               "aggr": "sum"
             }
@@ -510,7 +510,7 @@
           "groups": [],
           "scatter": {
             "xAxis": {
-              "name": "_1",
+              "name": "c",
               "index": 0.0,
               "aggr": "sum"
             }

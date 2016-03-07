@@ -487,7 +487,21 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%pyspark\ndf \u003d sqlc.createDataFrame(graph_number_strongly_connected_components.map(lambda x: (x[1], )),schema \u003d  [\u0027c\u0027])\n\n# Register to use in SQL\ndf.registerTempTable(\u0027graph_number_strongly_connected_components\u0027)",
+      "dateUpdated": "Mar 7, 2016 8:08:14 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
       "settings": {
         "params": {},
         "forms": {}

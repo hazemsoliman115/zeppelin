@@ -70,13 +70,13 @@
     },
     {
       "text": "%sql \nselect age, count(1) value\nfrom bank \nwhere age \u003c 30 \ngroup by age \norder by age",
-      "dateUpdated": "Mar 1, 2016 9:00:37 PM",
+      "dateUpdated": "Mar 7, 2016 7:42:13 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {
           "mode": "multiBarChart",
           "height": 300.0,
-          "optionOpen": false,
+          "optionOpen": true,
           "keys": [
             {
               "name": "age",
@@ -105,7 +105,8 @@
             }
           }
         },
-        "enabled": true
+        "enabled": true,
+        "editorMode": "ace/mode/sql"
       },
       "settings": {
         "params": {},

@@ -127,11 +127,11 @@
     },
     {
       "text": "%sql \nselect age, count(1) value\nfrom bank \nwhere age \u003c 30 \ngroup by age \norder by age",
-      "dateUpdated": "Mar 7, 2016 8:02:47 PM",
+      "dateUpdated": "Mar 7, 2016 8:06:26 PM",
       "config": {
         "colWidth": 4.0,
         "graph": {
-          "mode": "multiBarChart",
+          "mode": "table",
           "height": 300.0,
           "optionOpen": false,
           "keys": [

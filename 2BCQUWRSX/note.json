@@ -482,11 +482,11 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 223, in \u003cmodule\u003e\n    compiledCode \u003d compile(final_code, \"\u003cstring\u003e\", \"exec\")\n  File \"\u003cstring\u003e\", line 11\n    %matplotlib inline\n    ^\nSyntaxError: invalid syntax\n"
+        "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 225, in \u003cmodule\u003e\n    eval(compiledCode)\n  File \"\u003cstring\u003e\", line 11, in \u003cmodule\u003e\nTypeError: \u0027module\u0027 object is not callable\n"
       },
       "dateCreated": "Mar 7, 2016 7:43:46 PM",
-      "dateStarted": "Mar 7, 2016 7:55:53 PM",
-      "dateFinished": "Mar 7, 2016 7:55:53 PM",
+      "dateStarted": "Mar 7, 2016 7:56:02 PM",
+      "dateFinished": "Mar 7, 2016 7:56:02 PM",
       "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },

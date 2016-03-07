@@ -434,63 +434,6 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%pyspark\nimport matplotlib\nmatplotlib.use(\u0027Agg\u0027)\nimport matplotlib.pyplot as plt\nplt.rcdefaults()\nimport StringIO\n\ndef show(p):\n    img \u003d StringIO.StringIO()\n    p.savefig(img, format\u003d\u0027svg\u0027)\n    img.seek(0)\n    print \"%html \u003cdiv style\u003d\u0027width:600px\u0027\u003e\" + img.buf + \"\u003c/div\u003e\"\n    \n\n\nplt.plot(graph_degree_centrality_mean)\n    \n",
-      "dateUpdated": "Mar 7, 2016 7:56:09 PM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [
-            {
-              "name": "col_name",
-              "index": 0.0,
-              "aggr": "sum"
-            }
-          ],
-          "values": [
-            {
-              "name": "data_type",
-              "index": 1.0,
-              "aggr": "sum"
-            }
-          ],
-          "groups": [],
-          "scatter": {
-            "xAxis": {
-              "name": "col_name",
-              "index": 0.0,
-              "aggr": "sum"
-            },
-            "yAxis": {
-              "name": "data_type",
-              "index": 1.0,
-              "aggr": "sum"
-            }
-          }
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/scala"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1457379826449_1546492297",
-      "id": "20160307-194346_487210858",
-      "result": {
-        "code": "ERROR",
-        "type": "TEXT",
-        "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 225, in \u003cmodule\u003e\n    eval(compiledCode)\n  File \"\u003cstring\u003e\", line 11, in \u003cmodule\u003e\n  File \"/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py\", line 3147, in plot\n    ax \u003d gca()\n  File \"/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py\", line 928, in gca\n    return gcf().gca(**kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py\", line 578, in gcf\n    return figure()\n  File \"/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py\", line 527, in figure\n    **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py\", line 46, in new_figure_manager\n    return new_figure_manager_given_figure(num, thisFig)\n  File \"/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py\", line 53, in new_figure_manager_given_figure\n    canvas \u003d FigureCanvasQTAgg(figure)\n  File \"/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4agg.py\", line 76, in __init__\n    FigureCanvasQT.__init__(self, figure)\n  File \"/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt4.py\", line 68, in __init__\n    _create_qApp()\n  File \"/usr/local/lib/python2.7/dist-packages/matplotlib/backends/backend_qt5.py\", line 138, in _create_qApp\n    raise RuntimeError(\u0027Invalid DISPLAY variable\u0027)\nRuntimeError: Invalid DISPLAY variable\n"
-      },
-      "dateCreated": "Mar 7, 2016 7:43:46 PM",
-      "dateStarted": "Mar 7, 2016 7:56:09 PM",
-      "dateFinished": "Mar 7, 2016 7:56:09 PM",
-      "status": "ERROR",
-      "progressUpdateIntervalMs": 500
-    },
-    {
       "text": "%sql\nselect c from graph_degree_centrality_mean\ngroup by c\norder by c",
       "dateUpdated": "Mar 7, 2016 7:50:32 PM",
       "config": {

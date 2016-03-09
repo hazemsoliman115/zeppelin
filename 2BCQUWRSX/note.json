@@ -544,7 +544,7 @@
     },
     {
       "text": "%pyspark\nschemaPeople \u003d sqlContext.createDataFrame(mixed_list_RDD)\nschemaPeople.registerTempTable(\"mixed_list_RDD\")",
-      "dateUpdated": "Mar 7, 2016 8:23:39 PM",
+      "dateUpdated": "Mar 9, 2016 5:13:14 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

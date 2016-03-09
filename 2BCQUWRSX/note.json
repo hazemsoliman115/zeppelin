@@ -343,11 +343,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TABLE",
-        "msg": "trans\tvalue\n0.13043478260869565\t686\n"
+        "msg": "avg_conn\tvalue\n3.0\t686\n"
       },
       "dateCreated": "Mar 9, 2016 10:08:25 PM",
-      "dateStarted": "Mar 9, 2016 10:46:53 PM",
-      "dateFinished": "Mar 9, 2016 10:46:58 PM",
+      "dateStarted": "Mar 9, 2016 10:54:59 PM",
+      "dateFinished": "Mar 9, 2016 10:55:05 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

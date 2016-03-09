@@ -624,11 +624,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TABLE",
-        "msg": "Size\tCentrality\n2\t0.0425531914893617\n3\t0.0851063829787234\n4\t0.1276595744680851\n7\t0.2553191489361702\n11\t0.2553191489361702\n13\t0.5106382978723404\n"
+        "msg": "Size\tCentrality\n2\t0.044444444444444446\n3\t0.08888888888888889\n4\t0.13333333333333333\n7\t0.26666666666666666\n11\t0.26666666666666666\n13\t0.5333333333333333\n"
       },
       "dateCreated": "Mar 7, 2016 8:23:39 PM",
-      "dateStarted": "Mar 7, 2016 8:28:18 PM",
-      "dateFinished": "Mar 7, 2016 8:28:19 PM",
+      "dateStarted": "Mar 9, 2016 5:13:16 PM",
+      "dateFinished": "Mar 9, 2016 5:13:19 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

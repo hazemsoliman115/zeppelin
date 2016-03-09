@@ -266,8 +266,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%pyspark\n\ngraph_strongly_connected_components_graph \u003d graph_build.map(lambda s: (s[0],[x for x in s[1]] ))\nprint(graph_strongly_connected_components_graph.take(3))",
-      "dateUpdated": "Mar 9, 2016 5:39:38 PM",
+      "text": "%pyspark\n\ngraph_strongly_connected_components_graph \u003d graph_build.map(lambda s: (s[0],[nx.DiGraph(nx.strongly_connected_components(x)) for x in s[1]] ))\nprint(graph_strongly_connected_components_graph.take(3))",
+      "dateUpdated": "Mar 9, 2016 5:40:24 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

@@ -300,8 +300,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\nselect conn, count(1) value\nfrom graph_strongly_connected_components_graph_atrributes_DF\ngroup by conn \norder by conn",
-      "dateUpdated": "Mar 9, 2016 10:32:34 PM",
+      "text": "%sql\nselect no_att, count(1) value\nfrom graph_strongly_connected_components_graph_atrributes_DF\ngroup by no_att \norder by no_att",
+      "dateUpdated": "Mar 9, 2016 10:34:11 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -310,7 +310,7 @@
           "optionOpen": false,
           "keys": [
             {
-              "name": "assort",
+              "name": "conn",
               "index": 0.0,
               "aggr": "sum"
             }

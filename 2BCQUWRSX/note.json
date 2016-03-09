@@ -266,6 +266,18 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457544975332_-1048165531",
+      "id": "20160309-173615_1208124175",
+      "dateCreated": "Mar 9, 2016 5:36:15 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "text": "%pyspark\n\ngraph_strongly_connected_components \u003d graph_build.map(lambda s: (s[0],list(nx.strongly_connected_components(s[1])) ))\ngraph_strongly_connected_components_graph \u003d graph_build.map(lambda s: (s[0],nx.DiGraph(nx.strongly_connected_components(s[1])) ))\nprint(graph_strongly_connected_components.take(3))\nmean_cent_list \u003d []\nmax_cent_list \u003d []\nc_size_list \u003d []\nmixed_list \u003d []\nmean_cent_list_big \u003d []\nmax_cent_list_big \u003d []\nc_size_list_big \u003d []\nmixed_list_big \u003d []\nfor c in graph_strongly_connected_components.take(1)[0][1]:\n    mean_cent \u003d 0\n    max_cent \u003d []\n    for v in list(c):\n        mean_cent +\u003d graph_degree_centrality.take(1)[0][1][v]\n        max_cent.append(graph_degree_centrality.take(1)[0][1][v])\n    mean_cent_list.append(mean_cent/len(c))\n    max_cent_list.append(max(max_cent))\n    c_size_list.append(len(c))\n    mixed_list.append((len(c),max(max_cent)))\n    if len(c) \u003e\u003d 4:\n        mean_cent \u003d 0\n        max_cent \u003d []\n        for v in list(c):\n            mean_cent +\u003d graph_degree_centrality.take(1)[0][1][v]\n            max_cent.append(graph_degree_centrality.take(1)[0][1][v])\n        mean_cent_list_big.append(mean_cent/len(c))\n        max_cent_list_big.append(max(max_cent))\n        c_size_list_big.append(len(c))\n        mixed_list_big.append((len(c),max(max_cent)))\n    \nprint(mean_cent_list)\nprint(max_cent_list)\nprint(c_size_list)\nprint(\"separate\")\nprint(mean_cent_list_big)\nprint(max_cent_list_big)\nprint(c_size_list_big)\nprint([max_cent_list_big[i]/mean_cent_list_big[i] for i in range(len(mean_cent_list_big))])\nmixed_list_RDD \u003d sc.parallelize(mixed_list)\nmixed_list_RDD \u003d mixed_list_RDD.map(lambda p: Row(Size\u003dp[0], Centrality\u003dp[1]))\n",
       "dateUpdated": "Mar 9, 2016 5:35:16 PM",
       "config": {

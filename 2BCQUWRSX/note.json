@@ -300,39 +300,6 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%pyspark\r\nimport matplotlib as mpl\r\nimport matplotlib.pyplot as plt",
-      "dateUpdated": "Mar 9, 2016 5:12:18 PM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/scala"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1457135948777_682089683",
-      "id": "20160304-235908_960367813",
-      "result": {
-        "code": "ERROR",
-        "type": "TEXT",
-        "msg": "pyspark\r interpreter not found"
-      },
-      "dateCreated": "Mar 4, 2016 11:59:08 PM",
-      "status": "ERROR",
-      "errorMessage": "",
-      "progressUpdateIntervalMs": 500
-    },
-    {
       "text": "%pyspark\nprint(graph_sc.count())\nprint(graph_degree_connectivity.take(10))\nprint(graph_degree_centrality.take(10))\nprint(graph_degree_centrality_mean.take(10))\nprint(graph_is_directed_acyclic_graph.take(10))\nprint(graph_is_weakly_connected.take(10))\n\n\nprint(graph_number_strongly_connected_components.take(10))\nprint(graph_number_weakly_connected_components.take(10))",
       "dateUpdated": "Mar 4, 2016 11:11:24 PM",
       "config": {

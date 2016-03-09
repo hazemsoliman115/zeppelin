@@ -578,7 +578,7 @@
     },
     {
       "text": "%sql\nselect Size, Centrality\nfrom mixed_list_RDD\ngroup by Size ,Centrality\norder by Size",
-      "dateUpdated": "Mar 7, 2016 8:29:57 PM",
+      "dateUpdated": "Mar 9, 2016 5:13:16 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

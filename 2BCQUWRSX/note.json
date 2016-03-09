@@ -301,16 +301,16 @@
     },
     {
       "text": "%sql\nselect avg_conn, count(1) value\nfrom graph_strongly_connected_components_graph_atrributes_DF\ngroup by avg_conn \norder by avg_conn",
-      "dateUpdated": "Mar 9, 2016 10:11:03 PM",
+      "dateUpdated": "Mar 9, 2016 10:11:13 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
-          "mode": "table",
+          "mode": "multiBarChart",
           "height": 300.0,
           "optionOpen": false,
           "keys": [
             {
-              "name": "assort",
+              "name": "avg_conn",
               "index": 0.0,
               "aggr": "sum"
             }

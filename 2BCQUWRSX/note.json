@@ -343,11 +343,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TABLE",
-        "msg": "load_centr\tvalue\n0.1717171717171717\t686\n"
+        "msg": "trans\tvalue\n0.13043478260869565\t686\n"
       },
       "dateCreated": "Mar 9, 2016 10:08:25 PM",
-      "dateStarted": "Mar 9, 2016 10:56:27 PM",
-      "dateFinished": "Mar 9, 2016 10:56:33 PM",
+      "dateStarted": "Mar 9, 2016 10:56:46 PM",
+      "dateFinished": "Mar 9, 2016 10:56:51 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

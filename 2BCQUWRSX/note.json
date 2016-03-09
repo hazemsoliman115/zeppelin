@@ -402,7 +402,7 @@
     },
     {
       "text": "%sql\nselect c, count(1) value\nfrom graph_number_strongly_connected_components\ngroup by c \norder by c",
-      "dateUpdated": "Mar 7, 2016 8:40:26 PM",
+      "dateUpdated": "Mar 9, 2016 5:12:41 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

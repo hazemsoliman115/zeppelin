@@ -301,17 +301,40 @@
     },
     {
       "text": "%sql\nselect no_nodes, count(1) value\nfrom graph_strongly_connected_components_graph_atrributes_DF\ngroup by no_nodes \norder by no_nodes",
-      "dateUpdated": "Mar 9, 2016 10:08:49 PM",
+      "dateUpdated": "Mar 9, 2016 10:09:00 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
-          "mode": "table",
+          "mode": "multiBarChart",
           "height": 300.0,
           "optionOpen": false,
-          "keys": [],
-          "values": [],
+          "keys": [
+            {
+              "name": "no_nodes",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
+          "values": [
+            {
+              "name": "value",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          ],
           "groups": [],
-          "scatter": {}
+          "scatter": {
+            "xAxis": {
+              "name": "no_nodes",
+              "index": 0.0,
+              "aggr": "sum"
+            },
+            "yAxis": {
+              "name": "value",
+              "index": 1.0,
+              "aggr": "sum"
+            }
+          }
         },
         "enabled": true,
         "editorMode": "ace/mode/scala"

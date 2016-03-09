@@ -300,8 +300,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\nselect assort, count(1) value\nfrom graph_strongly_connected_components_graph_atrributes_DF\ngroup by assort \norder by assort",
-      "dateUpdated": "Mar 9, 2016 10:10:10 PM",
+      "text": "%sql\nselect assort,  value\nfrom graph_strongly_connected_components_graph_atrributes_DF\ngroup by assort \norder by assort",
+      "dateUpdated": "Mar 9, 2016 10:10:23 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

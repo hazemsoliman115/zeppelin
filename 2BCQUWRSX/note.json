@@ -343,11 +343,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TABLE",
-        "msg": "deg_centr\tvalue\n0.4000000000000002\t686\n"
+        "msg": "clos_centr\tvalue\n0.41378237934371626\t686\n"
       },
       "dateCreated": "Mar 9, 2016 10:08:25 PM",
-      "dateStarted": "Mar 9, 2016 10:55:18 PM",
-      "dateFinished": "Mar 9, 2016 10:55:23 PM",
+      "dateStarted": "Mar 9, 2016 10:55:53 PM",
+      "dateFinished": "Mar 9, 2016 10:55:59 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

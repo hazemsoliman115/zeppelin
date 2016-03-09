@@ -301,16 +301,16 @@
     },
     {
       "text": "%sql\nselect no_att, count(1) value\nfrom graph_strongly_connected_components_graph_atrributes_DF\ngroup by no_att \norder by no_att",
-      "dateUpdated": "Mar 9, 2016 10:14:30 PM",
+      "dateUpdated": "Mar 9, 2016 10:14:38 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
-          "mode": "multiBarChart",
+          "mode": "table",
           "height": 300.0,
           "optionOpen": false,
           "keys": [
             {
-              "name": "trans",
+              "name": "no_att",
               "index": 0.0,
               "aggr": "sum"
             }

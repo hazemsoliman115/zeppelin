@@ -301,16 +301,16 @@
     },
     {
       "text": "%sql\nselect trans, count(1) value\nfrom graph_strongly_connected_components_graph_atrributes_DF\ngroup by trans \norder by trans",
-      "dateUpdated": "Mar 9, 2016 10:14:07 PM",
+      "dateUpdated": "Mar 9, 2016 10:14:14 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
-          "mode": "table",
+          "mode": "multiBarChart",
           "height": 300.0,
           "optionOpen": false,
           "keys": [
             {
-              "name": "clos_centr",
+              "name": "trans",
               "index": 0.0,
               "aggr": "sum"
             }

@@ -343,11 +343,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TABLE",
-        "msg": "conn\tvalue\n1\t686\n"
+        "msg": "no_att\tvalue\n1.0\t686\n"
       },
       "dateCreated": "Mar 9, 2016 10:08:25 PM",
-      "dateStarted": "Mar 9, 2016 10:32:34 PM",
-      "dateFinished": "Mar 9, 2016 10:32:39 PM",
+      "dateStarted": "Mar 9, 2016 10:34:11 PM",
+      "dateFinished": "Mar 9, 2016 10:34:17 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

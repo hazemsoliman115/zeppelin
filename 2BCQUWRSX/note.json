@@ -301,11 +301,11 @@
     },
     {
       "text": "%sql\nselect assort, count(1) value\nfrom graph_strongly_connected_components_graph_atrributes_DF\ngroup by assort \norder by assort",
-      "dateUpdated": "Mar 9, 2016 10:10:05 PM",
+      "dateUpdated": "Mar 9, 2016 10:10:07 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
-          "mode": "lineChart",
+          "mode": "scatterChart",
           "height": 300.0,
           "optionOpen": false,
           "keys": [

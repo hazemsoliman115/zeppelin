@@ -291,11 +291,11 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 223, in \u003cmodule\u003e\n    compiledCode \u003d compile(final_code, \"\u003cstring\u003e\", \"exec\")\n  File \"\u003cstring\u003e\", line 8\n    graph_strongly_connected_components_graph_atrributes_DF \u003d graph_strongly_connected_components_graph_atrributes.map(lambda s: Row([no_nodes\u003dx[1],conn\u003dx[2],assort\u003dx[3],avg_conn\u003dx[4],deg_centr\u003dx[5],clos_centr\u003dx[6],bet_cent\u003dx[7],load_centr\u003dx[8],tri\u003dx[9],trans\u003dx[10],avg_clust\u003dx[11],no_att\u003dx[12] for x in s[1][0]]) )\n                                                                                                                                              ^\nSyntaxError: invalid syntax\n"
+        "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 223, in \u003cmodule\u003e\n    compiledCode \u003d compile(final_code, \"\u003cstring\u003e\", \"exec\")\n  File \"\u003cstring\u003e\", line 8\n    graph_strongly_connected_components_graph_atrributes_DF \u003d graph_strongly_connected_components_graph_atrributes.map(lambda s: Row([no_nodes\u003ds[1][0][1],conn\u003ds[1][0][2],assort\u003ds[1][0][3],avg_conn\u003ds[1][0][4],deg_centr\u003ds[1][0][5],clos_centr\u003ds[1][0][6],bet_cent\u003ds[1][0][7],load_centr\u003ds[1][0][8],tri\u003ds[1][0][9],trans\u003ds[1][0][10],avg_clust\u003ds[1][0][11],no_att\u003ds[1][0][12])  )\n                                                                                                                                              ^\nSyntaxError: invalid syntax\n"
       },
       "dateCreated": "Mar 9, 2016 5:36:15 PM",
-      "dateStarted": "Mar 9, 2016 9:50:28 PM",
-      "dateFinished": "Mar 9, 2016 9:50:29 PM",
+      "dateStarted": "Mar 9, 2016 9:52:28 PM",
+      "dateFinished": "Mar 9, 2016 9:52:28 PM",
       "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },

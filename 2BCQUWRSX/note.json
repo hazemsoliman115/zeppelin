@@ -300,8 +300,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\nselect c, count(1) value\nfrom graph_strongly_connected_components_graph_atrributes_DF\ngroup by c \norder by c",
-      "dateUpdated": "Mar 9, 2016 10:08:42 PM",
+      "text": "%sql\nselect no_nodes, count(1) value\nfrom graph_strongly_connected_components_graph_atrributes_DF\ngroup by no_nodes \norder by no_nodes",
+      "dateUpdated": "Mar 9, 2016 10:08:49 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

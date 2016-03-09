@@ -578,11 +578,11 @@
     },
     {
       "text": "%sql\nselect Size, Centrality\nfrom mixed_list_RDD\ngroup by Size ,Centrality\norder by Size",
-      "dateUpdated": "Mar 9, 2016 5:13:16 PM",
+      "dateUpdated": "Mar 9, 2016 5:13:22 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
-          "mode": "scatterChart",
+          "mode": "multiBarChart",
           "height": 300.0,
           "optionOpen": true,
           "keys": [

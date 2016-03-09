@@ -300,15 +300,21 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\nselect trans, count(1) value\nfrom graph_strongly_connected_components_graph_atrributes_DF\ngroup by trans \norder by trans",
-      "dateUpdated": "Mar 9, 2016 10:46:53 PM",
+      "text": "%sql\nselect avg_conn, count(1) value\nfrom graph_strongly_connected_components_graph_atrributes_DF\ngroup by avg_conn \norder by avg_conn",
+      "dateUpdated": "Mar 9, 2016 10:54:59 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
           "mode": "table",
           "height": 300.0,
           "optionOpen": false,
-          "keys": [],
+          "keys": [
+            {
+              "name": "trans",
+              "index": 0.0,
+              "aggr": "sum"
+            }
+          ],
           "values": [
             {
               "name": "value",

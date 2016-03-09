@@ -348,11 +348,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TABLE",
-        "msg": "no_nodes\tvalue\n13\t686\n"
+        "msg": "conn\tvalue\n1\t686\n"
       },
       "dateCreated": "Mar 9, 2016 10:08:25 PM",
-      "dateStarted": "Mar 9, 2016 10:08:49 PM",
-      "dateFinished": "Mar 9, 2016 10:08:55 PM",
+      "dateStarted": "Mar 9, 2016 10:09:22 PM",
+      "dateFinished": "Mar 9, 2016 10:09:27 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

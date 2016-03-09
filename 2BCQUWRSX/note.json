@@ -300,8 +300,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%sql\nselect conn, count(1) value\nfrom graph_strongly_connected_components_graph_atrributes_DF\ngroup by conn \norder by conn",
-      "dateUpdated": "Mar 9, 2016 10:09:22 PM",
+      "text": "%sql\nselect assort, count(1) value\nfrom graph_strongly_connected_components_graph_atrributes_DF\ngroup by assort \norder by assort",
+      "dateUpdated": "Mar 9, 2016 10:09:43 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -310,7 +310,7 @@
           "optionOpen": false,
           "keys": [
             {
-              "name": "no_nodes",
+              "name": "conn",
               "index": 0.0,
               "aggr": "sum"
             }
@@ -324,11 +324,6 @@
           ],
           "groups": [],
           "scatter": {
-            "xAxis": {
-              "name": "no_nodes",
-              "index": 0.0,
-              "aggr": "sum"
-            },
             "yAxis": {
               "name": "value",
               "index": 1.0,

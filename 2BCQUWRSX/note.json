@@ -294,8 +294,8 @@
         "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 225, in \u003cmodule\u003e\n    eval(compiledCode)\n  File \"\u003cstring\u003e\", line 8, in \u003cmodule\u003e\n  File \"/opt/spark/spark-1.6.0-bin-hadoop2.6/python/pyspark/sql/context.py\", line 62, in toDF\n    return sqlContext.createDataFrame(self, schema, sampleRatio)\n  File \"/opt/spark/spark-1.6.0-bin-hadoop2.6/python/pyspark/sql/context.py\", line 426, in createDataFrame\n    rdd, schema \u003d self._createFromRDD(data, schema, samplingRatio)\n  File \"/opt/spark/spark-1.6.0-bin-hadoop2.6/python/pyspark/sql/context.py\", line 313, in _createFromRDD\n    struct \u003d self._inferSchema(rdd, samplingRatio)\n  File \"/opt/spark/spark-1.6.0-bin-hadoop2.6/python/pyspark/sql/context.py\", line 266, in _inferSchema\n    schema \u003d _infer_schema(first)\n  File \"/opt/spark/spark-1.6.0-bin-hadoop2.6/python/pyspark/sql/types.py\", line 833, in _infer_schema\n    fields \u003d [StructField(k, _infer_type(v), True) for k, v in items]\n  File \"/opt/spark/spark-1.6.0-bin-hadoop2.6/python/pyspark/sql/types.py\", line 810, in _infer_type\n    raise TypeError(\"not supported type: %s\" % type(obj))\nTypeError: not supported type: \u003ctype \u0027numpy.float64\u0027\u003e\n"
       },
       "dateCreated": "Mar 9, 2016 5:36:15 PM",
-      "dateStarted": "Mar 9, 2016 9:58:47 PM",
-      "dateFinished": "Mar 9, 2016 9:58:47 PM",
+      "dateStarted": "Mar 9, 2016 9:58:58 PM",
+      "dateFinished": "Mar 9, 2016 9:58:59 PM",
       "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },

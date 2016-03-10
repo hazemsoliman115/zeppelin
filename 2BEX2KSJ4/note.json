@@ -68,8 +68,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "vmridAvgCPU.take(5).foreach(println)\nvmidAvgCPU.take(5).foreach(println)\nrawPmnameAvgCPU.take(5).foreach(println)\npmnameAvgCPU.take(5).foreach(println)\npmnameAvgCPUFormatted.take(5).foreach(println)\nvmidToPhyEdge.take(5).foreach(println)",
-      "dateUpdated": "Mar 10, 2016 11:19:21 PM",
+      "text": "vmridAvgCPU.take(5).foreach(println)\nvmidAvgCPU.take(5).foreach(println)\nrawPmnameAvgCPU.take(5).foreach(println)\npmnameAvgCPU.take(5).foreach(println)\npmnameAvgCPUFormatted.take(5).foreach(println)\nvmidToPhy.take(5).foreach(println)\nvmidToPhyEdge.take(5).foreach(println)",
+      "dateUpdated": "Mar 10, 2016 11:48:17 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

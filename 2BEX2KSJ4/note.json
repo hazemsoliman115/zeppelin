@@ -56,8 +56,15 @@
       },
       "jobName": "paragraph_1457651170962_1260076413",
       "id": "20160310-230610_1406284781",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "ridToId: org.apache.spark.rdd.RDD[(String, Long)] \u003d MapPartitionsRDD[3537] at map at Utils.scala:38\nidToRid: org.apache.spark.rdd.RDD[(Long, String)] \u003d MapPartitionsRDD[3538] at map at \u003cconsole\u003e:92\n\u003cconsole\u003e:96: error: not found: value hdfsPathsArray\n       val vmridAvgCPU \u003d VmCPUUtil.calculateAvgFromFile(sqlContext, hdfsPathsArray, startTime, endTime)\n                                                                    ^\n"
+      },
       "dateCreated": "Mar 10, 2016 11:06:10 PM",
-      "status": "READY",
+      "dateStarted": "Mar 10, 2016 11:07:25 PM",
+      "dateFinished": "Mar 10, 2016 11:07:26 PM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {

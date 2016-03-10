@@ -57,14 +57,14 @@
       "jobName": "paragraph_1457651170962_1260076413",
       "id": "20160310-230610_1406284781",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "ridToId: org.apache.spark.rdd.RDD[(String, Long)] \u003d MapPartitionsRDD[3537] at map at Utils.scala:38\nidToRid: org.apache.spark.rdd.RDD[(Long, String)] \u003d MapPartitionsRDD[3538] at map at \u003cconsole\u003e:92\n\u003cconsole\u003e:96: error: not found: value hdfsPathsArray\n       val vmridAvgCPU \u003d VmCPUUtil.calculateAvgFromFile(sqlContext, hdfsPathsArray, startTime, endTime)\n                                                                    ^\n"
+        "msg": "ridToId: org.apache.spark.rdd.RDD[(String, Long)] \u003d MapPartitionsRDD[3543] at map at Utils.scala:38\nidToRid: org.apache.spark.rdd.RDD[(Long, String)] \u003d MapPartitionsRDD[3544] at map at \u003cconsole\u003e:92\nvmridAvgCPU: org.apache.spark.rdd.RDD[(String, Double)] \u003d MapPartitionsRDD[3557] at map at VmBase.scala:112\nvmidAvgCPU: org.apache.spark.rdd.RDD[(Long, (String, Double, String))] \u003d MapPartitionsRDD[3561] at map at \u003cconsole\u003e:103\nrawPmnameAvgCPU: org.apache.spark.rdd.RDD[(String, Double)] \u003d MapPartitionsRDD[3574] at map at PhysicalBase.scala:99\npmnameAvgCPU: org.apache.spark.rdd.RDD[(String, Double)] \u003d MapPartitionsRDD[3575] at map at \u003cconsole\u003e:100\npmnameAvgCPUFormatted: org.apache.spark.rdd.RDD[(Long, String, Double, String)] \u003d MapPartitionsRDD[3576] at map at \u003cconsole\u003e:102\nvmidToPhy: org.apache.spark.rdd.RDD[(Long, String)] \u003d MapPartitionsRDD[3581] at map at Utils.scala:52\nvmidToPhyEdge: org.apache.spark.rdd.RDD[(Long, Long, Double, String)] \u003d MapPartitionsRDD[3582] at map at \u003cconsole\u003e:92\n"
       },
       "dateCreated": "Mar 10, 2016 11:06:10 PM",
-      "dateStarted": "Mar 10, 2016 11:07:25 PM",
-      "dateFinished": "Mar 10, 2016 11:07:26 PM",
-      "status": "ERROR",
+      "dateStarted": "Mar 10, 2016 11:08:48 PM",
+      "dateFinished": "Mar 10, 2016 11:09:13 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {

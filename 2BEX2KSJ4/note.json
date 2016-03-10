@@ -35,7 +35,21 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "val ridToId \u003d Utils.getVMRidToID(sqlContext)\r\nval idToRid \u003d ridToId.map(ri \u003d\u003e (ri._2.toLong, ri._1))",
+      "dateUpdated": "Mar 10, 2016 11:06:26 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
       "settings": {
         "params": {},
         "forms": {}

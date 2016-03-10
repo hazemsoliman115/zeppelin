@@ -69,7 +69,7 @@
     },
     {
       "text": "vmridAvgCPU.take(5).foreach(println)\nvmidAvgCPU.take(5).foreach(println)\nrawPmnameAvgCPU.take(5).foreach(println)\npmnameAvgCPU.take(5).foreach(println)\nvmidToPhyEdge.take(5).foreach(println)",
-      "dateUpdated": "Mar 10, 2016 11:16:46 PM",
+      "dateUpdated": "Mar 10, 2016 11:16:48 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -91,6 +91,18 @@
       "jobName": "paragraph_1457651245652_1089522093",
       "id": "20160310-230725_1541489322",
       "dateCreated": "Mar 10, 2016 11:07:25 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457651808462_-1868817658",
+      "id": "20160310-231648_768018485",
+      "dateCreated": "Mar 10, 2016 11:16:48 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }

@@ -68,7 +68,22 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "vmridAvgCPU.take(5).foreach(println)\nvmidAvgCPU.take(5).foreach(println)\nrawPmnameAvgCPU.take(5).foreach(println)\npmnameAvgCPU.take(5).foreach(println)\nvmidToPhyEdge.take(5).foreach(println)",
+      "dateUpdated": "Mar 10, 2016 11:16:46 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
       "settings": {
         "params": {},
         "forms": {}

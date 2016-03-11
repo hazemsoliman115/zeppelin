@@ -746,11 +746,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "[0.1729468599033816, 0.15072463768115937]\n"
+        "msg": "[0.1729468599033816]\n"
       },
       "dateCreated": "Mar 11, 2016 9:03:18 PM",
-      "dateStarted": "Mar 11, 2016 9:03:43 PM",
-      "dateFinished": "Mar 11, 2016 9:03:43 PM",
+      "dateStarted": "Mar 11, 2016 9:03:49 PM",
+      "dateFinished": "Mar 11, 2016 9:03:49 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

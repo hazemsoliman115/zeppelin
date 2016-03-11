@@ -102,39 +102,6 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%pyspark\r\nimport matplotlib\r\nmatplotlib.use(\u0027Agg\u0027) \r\nimport matplotlib.pyplot as plt\r\n\r\n\r\n\r\nfig, ax \u003d plt.subplots( nrows\u003d1, ncols\u003d1 )  # create figure \u0026 1 axis\r\nax.plot([0,1,2], [10,20,3])\r\nfig.savefig(\u0027path/to/save/image/to.png\u0027)   # save the figure to file\r\nplt.close(fig)",
-      "dateUpdated": "Mar 11, 2016 7:21:41 PM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/scala"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1457724086786_-13892149",
-      "id": "20160311-192126_1630827452",
-      "result": {
-        "code": "ERROR",
-        "type": "TEXT",
-        "msg": "pyspark\r interpreter not found"
-      },
-      "dateCreated": "Mar 11, 2016 7:21:26 PM",
-      "status": "ERROR",
-      "errorMessage": "",
-      "progressUpdateIntervalMs": 500
-    },
-    {
       "text": "%pyspark\nimport matplotlib\n\n\nmatplotlib.use(\u0027Agg\u0027)\n\nimport matplotlib.pyplot as plt\n\n\n\nfig, ax \u003d plt.subplots( nrows\u003d1, ncols\u003d1 )  # create figure \u0026 1 axis\nax.plot([0,1,2], [10,20,3])\nfig.savefig(\u0027path/to/save/image/to.png\u0027)   # save the figure to file\nplt.close(fig)",
       "dateUpdated": "Mar 11, 2016 7:20:02 PM",
       "config": {

@@ -130,8 +130,8 @@
         "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 225, in \u003cmodule\u003e\n    eval(compiledCode)\n  File \"\u003cstring\u003e\", line 2, in \u003cmodule\u003e\nNameError: name \u0027plt\u0027 is not defined\n"
       },
       "dateCreated": "Mar 11, 2016 7:10:55 PM",
-      "dateStarted": "Mar 11, 2016 7:13:50 PM",
-      "dateFinished": "Mar 11, 2016 7:13:50 PM",
+      "dateStarted": "Mar 11, 2016 7:13:57 PM",
+      "dateFinished": "Mar 11, 2016 7:13:57 PM",
       "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },

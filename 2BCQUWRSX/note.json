@@ -1044,11 +1044,11 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 225, in \u003cmodule\u003e\n    eval(compiledCode)\n  File \"\u003cstring\u003e\", line 13, in \u003cmodule\u003e\n  File \"/usr/local/lib/python2.7/dist-packages/matplotlib/figure.py\", line 987, in add_subplot\n    self, *args, **kwargs)\n  File \"/usr/local/lib/python2.7/dist-packages/matplotlib/projections/__init__.py\", line 98, in process_projection_requirements\n    projection_class \u003d get_projection_class(projection)\n  File \"/usr/local/lib/python2.7/dist-packages/matplotlib/projections/__init__.py\", line 67, in get_projection_class\n    raise ValueError(\"Unknown projection \u0027%s\u0027\" % projection)\nValueError: Unknown projection \u00273d\u0027\n"
+        "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 225, in \u003cmodule\u003e\n    eval(compiledCode)\n  File \"\u003cstring\u003e\", line 15, in \u003cmodule\u003e\nTypeError: \u0027PipelinedRDD\u0027 object is not iterable\n"
       },
       "dateCreated": "Mar 11, 2016 10:50:46 PM",
-      "dateStarted": "Mar 11, 2016 11:01:17 PM",
-      "dateFinished": "Mar 11, 2016 11:01:18 PM",
+      "dateStarted": "Mar 11, 2016 11:01:40 PM",
+      "dateFinished": "Mar 11, 2016 11:01:42 PM",
       "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },

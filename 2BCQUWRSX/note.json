@@ -168,8 +168,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "graphText.take(2).foreach(println)\ngraphText.saveAsTextFile(\"hdfs://monarch-master/user/ubuntu/monitoring/Hazem/graph0803.txt\")\nvmidToPhyEdge.saveAsTextFile(\"hdfs://monarch-master/user/ubuntu/monitoring/Hazem/vm_phy1003.txt\")",
-      "dateUpdated": "Mar 11, 2016 12:53:31 AM",
+      "text": "graphText.take(2).foreach(println)\n//graphText.saveAsTextFile(\"hdfs://monarch-master/user/ubuntu/monitoring/Hazem/graph0803.txt\")\nvmidToPhyEdge.saveAsTextFile(\"hdfs://monarch-master/user/ubuntu/monitoring/Hazem/vm_phy1003.txt\")",
+      "dateUpdated": "Mar 11, 2016 12:53:46 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {

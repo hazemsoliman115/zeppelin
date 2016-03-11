@@ -755,8 +755,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%pyspark\n\n## Plot the number of connected components\nimport matplotlib\nmatplotlib.use(\u0027Agg\u0027)\nimport matplotlib.pyplot as plt; plt.rcdefaults()\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport StringIO\n\ndef show(p):\n    img \u003d StringIO.StringIO()\n    p.savefig(img, format\u003d\u0027svg\u0027)\n    img.seek(0)\n    print \"%html \u003cdiv style\u003d\u0027width:600px\u0027\u003e\" + img.buf + \"\u003c/div\u003e\"\n\nplt.figure()\n# Example data\nplt.hist(graph_number_connected_components.map(lambda s: s[1]).collect())\n\n# plt.barh(y_pos, performance, xerr\u003derror, align\u003d\u0027center\u0027, alpha\u003d0.4)\nplt.xlabel(\u0027Frequency\u0027)\nplt.xlabel(\u0027Number of connected components\u0027)\nplt.title(\u0027Number of connected components Histo\u0027)\n\nshow(plt)\n#plt.savefig(\"/home/ubuntu/foo.png\")",
-      "dateUpdated": "Mar 11, 2016 9:09:26 PM",
+      "text": "%pyspark\n\n## Plot the number of connected components\nimport matplotlib\nmatplotlib.use(\u0027Agg\u0027)\nimport matplotlib.pyplot as plt; plt.rcdefaults()\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport StringIO\n\ndef show(p):\n    img \u003d StringIO.StringIO()\n    p.savefig(img, format\u003d\u0027svg\u0027)\n    img.seek(0)\n    print \"%html \u003cdiv style\u003d\u0027width:600px\u0027\u003e\" + img.buf + \"\u003c/div\u003e\"\n\nplt.figure()\n# Example data\nplt.hist(graph_number_connected_components.map(lambda s: s[1]).collect())\n\n# plt.barh(y_pos, performance, xerr\u003derror, align\u003d\u0027center\u0027, alpha\u003d0.4)\nplt.xlabel(\u0027Frequency\u0027)\nplt.xlabel(\u0027Number of connected components\u0027)\nplt.title(\u0027Number of connected components Histogram\u0027)\n\nshow(plt)\n#plt.savefig(\"/home/ubuntu/foo.png\")",
+      "dateUpdated": "Mar 11, 2016 9:09:47 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

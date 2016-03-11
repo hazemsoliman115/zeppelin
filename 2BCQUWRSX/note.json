@@ -1041,8 +1041,15 @@
       },
       "jobName": "paragraph_1457736646145_11857474",
       "id": "20160311-225046_1754863477",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:29: error: not found: value %\n              %pyspark\n              ^\n"
+      },
       "dateCreated": "Mar 11, 2016 10:50:46 PM",
-      "status": "READY",
+      "dateStarted": "Mar 11, 2016 11:01:07 PM",
+      "dateFinished": "Mar 11, 2016 11:01:08 PM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {

@@ -123,8 +123,15 @@
       },
       "jobName": "paragraph_1457651808462_-1868817658",
       "id": "20160310-231648_768018485",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:1: error: \u0027;\u0027 expected but \u0027import\u0027 found.\n       from pylab import figure, axes, pie, title, show\n                  ^\n"
+      },
       "dateCreated": "Mar 10, 2016 11:16:48 PM",
-      "status": "READY",
+      "dateStarted": "Mar 11, 2016 7:04:41 PM",
+      "dateFinished": "Mar 11, 2016 7:04:41 PM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {

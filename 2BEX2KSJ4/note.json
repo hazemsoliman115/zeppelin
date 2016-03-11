@@ -157,8 +157,14 @@
       },
       "jobName": "paragraph_1457723081379_-1752768877",
       "id": "20160311-190441_1237744809",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "pyspark\r interpreter not found"
+      },
       "dateCreated": "Mar 11, 2016 7:04:41 PM",
-      "status": "READY",
+      "status": "ERROR",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {

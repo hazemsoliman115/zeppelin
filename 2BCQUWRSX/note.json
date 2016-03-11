@@ -744,14 +744,14 @@
       "jobName": "paragraph_1457730198527_763631707",
       "id": "20160311-210318_745736540",
       "result": {
-        "code": "ERROR",
+        "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:28: error: not found: value graph_degree_centrality_mean\n              print(graph_degree_centrality_mean.take(2))\n                    ^\n"
+        "msg": "[0.1729468599033816, 0.15072463768115937]\n"
       },
       "dateCreated": "Mar 11, 2016 9:03:18 PM",
-      "dateStarted": "Mar 11, 2016 9:03:32 PM",
-      "dateFinished": "Mar 11, 2016 9:03:33 PM",
-      "status": "ERROR",
+      "dateStarted": "Mar 11, 2016 9:03:43 PM",
+      "dateFinished": "Mar 11, 2016 9:03:43 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {

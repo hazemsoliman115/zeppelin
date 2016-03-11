@@ -102,7 +102,22 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%pyspark\r\nimport matplotlib\r\nmatplotlib.use(\u0027Agg\u0027) \r\nimport matplotlib.pyplot as plt\r\n\r\n\r\n\r\nfig, ax \u003d plt.subplots( nrows\u003d1, ncols\u003d1 )  # create figure \u0026 1 axis\r\nax.plot([0,1,2], [10,20,3])\r\nfig.savefig(\u0027path/to/save/image/to.png\u0027)   # save the figure to file\r\nplt.close(fig)",
+      "dateUpdated": "Mar 11, 2016 7:21:50 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
       "settings": {
         "params": {},
         "forms": {}

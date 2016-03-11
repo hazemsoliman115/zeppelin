@@ -102,8 +102,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%pyspark\nimport matplotlib\nmatplotlib.use(\u0027Agg\u0027)\nimport matplotlib.pyplot as plt; plt.rcdefaults()\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport StringIO\n\ndef show(p):\n    img \u003d StringIO.StringIO()\n    p.savefig(img, format\u003d\u0027svg\u0027)\n    img.seek(0)\n    print \"%html \u003cdiv style\u003d\u0027width:600px\u0027\u003e\" + img.buf + \"\u003c/div\u003e\"\n\n# Example data\npeople \u003d (\u0027Tom\u0027, \u0027Dick\u0027, \u0027Harry\u0027, \u0027Slim\u0027, \u0027Jim\u0027)\ny_pos \u003d np.arange(len(people))\nperformance \u003d 3 + 10 * np.random.rand(len(people))\nerror \u003d np.random.rand(len(people))\n\nplt.barh(y_pos, performance, xerr\u003derror, align\u003d\u0027center\u0027, alpha\u003d0.4)\nplt.yticks(y_pos, people)\nplt.xlabel(\u0027Performance\u0027)\nplt.title(\u0027How fast do you want to go today?\u0027)\n\nshow(plt)\nplt.savefig(\"\")",
-      "dateUpdated": "Mar 11, 2016 7:37:25 PM",
+      "text": "%pyspark\nimport matplotlib\nmatplotlib.use(\u0027Agg\u0027)\nimport matplotlib.pyplot as plt; plt.rcdefaults()\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport StringIO\n\ndef show(p):\n    img \u003d StringIO.StringIO()\n    p.savefig(img, format\u003d\u0027svg\u0027)\n    img.seek(0)\n    print \"%html \u003cdiv style\u003d\u0027width:600px\u0027\u003e\" + img.buf + \"\u003c/div\u003e\"\n\n# Example data\npeople \u003d (\u0027Tom\u0027, \u0027Dick\u0027, \u0027Harry\u0027, \u0027Slim\u0027, \u0027Jim\u0027)\ny_pos \u003d np.arange(len(people))\nperformance \u003d 3 + 10 * np.random.rand(len(people))\nerror \u003d np.random.rand(len(people))\n\nplt.barh(y_pos, performance, xerr\u003derror, align\u003d\u0027center\u0027, alpha\u003d0.4)\nplt.yticks(y_pos, people)\nplt.xlabel(\u0027Performance\u0027)\nplt.title(\u0027How fast do you want to go today?\u0027)\n\nshow(plt)\nplt.savefig(\"/home/ubuntu/foo.png\")",
+      "dateUpdated": "Mar 11, 2016 7:37:43 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

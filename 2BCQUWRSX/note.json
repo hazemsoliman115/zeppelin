@@ -259,11 +259,11 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 225, in \u003cmodule\u003e\n    eval(compiledCode)\n  File \"\u003cstring\u003e\", line 8, in \u003cmodule\u003e\nNameError: name \u0027cleanfile\u0027 is not defined\n"
+        "msg": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_pyspark.py\", line 225, in \u003cmodule\u003e\n    eval(compiledCode)\n  File \"\u003cstring\u003e\", line 26, in \u003cmodule\u003e\nNameError: name \u0027graph_degree_radius\u0027 is not defined\n"
       },
       "dateCreated": "Mar 1, 2016 1:00:22 AM",
-      "dateStarted": "Mar 11, 2016 7:10:22 PM",
-      "dateFinished": "Mar 11, 2016 7:10:22 PM",
+      "dateStarted": "Mar 11, 2016 7:10:30 PM",
+      "dateFinished": "Mar 11, 2016 7:10:36 PM",
       "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },

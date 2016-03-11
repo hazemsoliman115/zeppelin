@@ -103,7 +103,7 @@
     },
     {
       "text": "%pyspark\r\nfrom pylab import figure, axes, pie, title, show\r\n\r\n# Make a square figure and axes\r\nfigure(1, figsize\u003d(6, 6))\r\nax \u003d axes([0.1, 0.1, 0.8, 0.8])\r\n\r\n\r\nfracs \u003d [15, 30, 45, 10]\r\n\r\nexplode \u003d (0, 0.05, 0, 0)\r\nplot(fracs, explode\u003dexplode)\r\ntitle(\u0027Raining Hogs and Dogs\u0027, bbox\u003d{\u0027facecolor\u0027: \u00270.8\u0027, \u0027pad\u0027: 5})\r\n\r\n",
-      "dateUpdated": "Mar 11, 2016 7:04:49 PM",
+      "dateUpdated": "Mar 11, 2016 7:04:56 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -127,12 +127,13 @@
       "result": {
         "code": "ERROR",
         "type": "TEXT",
-        "msg": "\u003cconsole\u003e:1: error: \u0027;\u0027 expected but \u0027import\u0027 found.\n       from pylab import figure, axes, pie, title, show\n                  ^\n"
+        "msg": "pyspark\r interpreter not found"
       },
       "dateCreated": "Mar 10, 2016 11:16:48 PM",
       "dateStarted": "Mar 11, 2016 7:04:41 PM",
       "dateFinished": "Mar 11, 2016 7:04:41 PM",
       "status": "ERROR",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {

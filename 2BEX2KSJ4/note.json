@@ -102,6 +102,18 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457723455639_-384664729",
+      "id": "20160311-191055_1400561911",
+      "dateCreated": "Mar 11, 2016 7:10:55 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "text": "%pyspark\r\nx \u003d 1\r\n\r\n\r\n\r\n\r\n",
       "dateUpdated": "Mar 11, 2016 7:10:14 PM",
       "config": {

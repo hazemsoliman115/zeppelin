@@ -103,7 +103,7 @@
     },
     {
       "text": "%pyspark\n\nfrom pylab import figure, axes, pie, title, show\n\nfig \u003d plt.figure()\n# Make a square figure and axes\nfigure(1, figsize\u003d(6, 6))\nax \u003d axes([0.1, 0.1, 0.8, 0.8])\n\nlabels \u003d \u0027Frogs\u0027, \u0027Hogs\u0027, \u0027Dogs\u0027, \u0027Logs\u0027\nfracs \u003d [15, 30, 45, 10]\n\nexplode \u003d (0, 0.05, 0, 0)\nfig \u003d plt.plot(fracs, explode\u003dexplode, labels\u003dlabels, autopct\u003d\u0027%1.1f%%\u0027, shadow\u003dTrue)\ntitle(\u0027Raining Hogs and Dogs\u0027, bbox\u003d{\u0027facecolor\u0027: \u00270.8\u0027, \u0027pad\u0027: 5})\nfig.savefig(\u0027foo.png\u0027)",
-      "dateUpdated": "Mar 11, 2016 7:13:50 PM",
+      "dateUpdated": "Mar 11, 2016 7:13:57 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

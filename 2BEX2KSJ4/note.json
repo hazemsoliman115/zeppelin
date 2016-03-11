@@ -103,7 +103,7 @@
     },
     {
       "text": "%pyspark\nimport matplotlib.pyplot as plt\nfrom pylab import figure, axes, pie, title, show\n\n\n\n\n\n\n\nfig, ax \u003d plt.subplots( nrows\u003d1, ncols\u003d1 )  # create figure \u0026 1 axis\nax.plot([0,1,2], [10,20,3])\nfig.savefig(\u0027path/to/save/image/to.png\u0027)   # save the figure to file\nplt.close(fig)",
-      "dateUpdated": "Mar 11, 2016 7:14:50 PM",
+      "dateUpdated": "Mar 11, 2016 7:14:59 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

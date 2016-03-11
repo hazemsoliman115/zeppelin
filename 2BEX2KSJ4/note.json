@@ -136,7 +136,21 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%pyspark\r\n\r\nimport matplotlib.pyplot as plt; plt.rcdefaults()\r\nimport numpy as np\r\nimport matplotlib.pyplot as plt\r\nimport StringIO\r\n\r\ndef show(p):\r\n    img \u003d StringIO.StringIO()\r\n    p.savefig(img, format\u003d\u0027svg\u0027)\r\n    img.seek(0)\r\n    print \"%html \u003cdiv style\u003d\u0027width:600px\u0027\u003e\" + img.buf + \"\u003c/div\u003e\"\r\n\r\n# Example data\r\npeople \u003d (\u0027Tom\u0027, \u0027Dick\u0027, \u0027Harry\u0027, \u0027Slim\u0027, \u0027Jim\u0027)\r\ny_pos \u003d np.arange(len(people))\r\nperformance \u003d 3 + 10 * np.random.rand(len(people))\r\nerror \u003d np.random.rand(len(people))\r\n\r\nplt.barh(y_pos, performance, xerr\u003derror, align\u003d\u0027center\u0027, alpha\u003d0.4)\r\nplt.yticks(y_pos, people)\r\nplt.xlabel(\u0027Performance\u0027)\r\nplt.title(\u0027How fast do you want to go today?\u0027)\r\n\r\nshow(plt)",
+      "dateUpdated": "Mar 11, 2016 7:23:36 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
       "settings": {
         "params": {},
         "forms": {}
@@ -144,6 +158,18 @@
       "jobName": "paragraph_1457723081379_-1752768877",
       "id": "20160311-190441_1237744809",
       "dateCreated": "Mar 11, 2016 7:04:41 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457724216316_-1800080433",
+      "id": "20160311-192336_1563947754",
+      "dateCreated": "Mar 11, 2016 7:23:36 PM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }

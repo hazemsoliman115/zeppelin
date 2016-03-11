@@ -1019,8 +1019,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%pyspark\n\n## Plot the mean centrality\nimport matplotlib\nmatplotlib.use(\u0027Agg\u0027)\nimport matplotlib.pyplot as plt; plt.rcdefaults()\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport StringIO\n\ndef show(p):\n    img \u003d StringIO.StringIO()\n    p.savefig(img, format\u003d\u0027svg\u0027)\n    img.seek(0)\n    print \"%html \u003cdiv style\u003d\u0027width:600px\u0027\u003e\" + img.buf + \"\u003c/div\u003e\"\n\nfig \u003d plt.figure()\n\n\nfor x in graph_sens_list.take(1)[0]:\n    plt.scatter(x[0], x[1], marker\u003dx[2])\n\n\n\n\n# plt.barh(y_pos, performance, xerr\u003derror, align\u003d\u0027center\u0027, alpha\u003d0.4)\nplt.xlabel(\u0027Frequency\u0027)\nplt.xlabel(\u0027Mean load Centrality\u0027)\nplt.title(\u0027Mean load centrality for the top 4 Apps\u0027)\nplt.legend(loc\u003d\u0027upper center\u0027)\nshow(plt)\n\n#plt.savefig(\"/home/ubuntu/foo.png\")",
-      "dateUpdated": "Mar 11, 2016 11:09:13 PM",
+      "text": "%pyspark\n\n## Plot the mean centrality\nimport matplotlib\nmatplotlib.use(\u0027Agg\u0027)\nimport matplotlib.pyplot as plt; plt.rcdefaults()\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport StringIO\n\ndef show(p):\n    img \u003d StringIO.StringIO()\n    p.savefig(img, format\u003d\u0027svg\u0027)\n    img.seek(0)\n    print \"%html \u003cdiv style\u003d\u0027width:600px\u0027\u003e\" + img.buf + \"\u003c/div\u003e\"\n\nfig \u003d plt.figure()\n\n\nfor x in graph_sens_list.take(1)[0]:\n    plt.scatter(x[0], x[1], marker\u003d\u0027$x[2]$\u0027)\n\n\n\n\n# plt.barh(y_pos, performance, xerr\u003derror, align\u003d\u0027center\u0027, alpha\u003d0.4)\nplt.xlabel(\u0027Frequency\u0027)\nplt.xlabel(\u0027Mean load Centrality\u0027)\nplt.title(\u0027Mean load centrality for the top 4 Apps\u0027)\nplt.legend(loc\u003d\u0027upper center\u0027)\nshow(plt)\n\n#plt.savefig(\"/home/ubuntu/foo.png\")",
+      "dateUpdated": "Mar 11, 2016 11:09:33 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

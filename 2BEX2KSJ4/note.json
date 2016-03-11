@@ -136,41 +136,6 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%pyspark\r\nx \u003d 1\r\n\r\n\r\n\r\n\r\n",
-      "dateUpdated": "Mar 11, 2016 7:10:14 PM",
-      "config": {
-        "colWidth": 12.0,
-        "graph": {
-          "mode": "table",
-          "height": 300.0,
-          "optionOpen": false,
-          "keys": [],
-          "values": [],
-          "groups": [],
-          "scatter": {}
-        },
-        "enabled": true,
-        "editorMode": "ace/mode/scala"
-      },
-      "settings": {
-        "params": {},
-        "forms": {}
-      },
-      "jobName": "paragraph_1457651808462_-1868817658",
-      "id": "20160310-231648_768018485",
-      "result": {
-        "code": "ERROR",
-        "type": "TEXT",
-        "msg": "pyspark\r interpreter not found"
-      },
-      "dateCreated": "Mar 10, 2016 11:16:48 PM",
-      "dateStarted": "Mar 11, 2016 7:04:41 PM",
-      "dateFinished": "Mar 11, 2016 7:04:41 PM",
-      "status": "ERROR",
-      "errorMessage": "",
-      "progressUpdateIntervalMs": 500
-    },
-    {
       "config": {},
       "settings": {
         "params": {},

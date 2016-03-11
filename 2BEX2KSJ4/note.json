@@ -102,7 +102,22 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "%pyspark\n\n",
+      "dateUpdated": "Mar 11, 2016 7:11:11 PM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/scala"
+      },
       "settings": {
         "params": {},
         "forms": {}

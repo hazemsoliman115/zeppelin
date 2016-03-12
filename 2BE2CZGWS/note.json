@@ -90,8 +90,15 @@
       },
       "jobName": "paragraph_1457745709153_-281308474",
       "id": "20160312-012149_1782892233",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:49: error: not found: value hdfs\nval $ires27 \u003d hdfs\n              ^\n\u003cconsole\u003e:46: error: not found: value hdfs\n         hdfs\u003d\"hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/0/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/1/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/2/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/3/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/4/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/5/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/6/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/7/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/8/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/9/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/10/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/11/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/12/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/13/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/14/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/15/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/16/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/17/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/18/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/19/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/20/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/21/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/22/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/23/*\"\n         ^\n"
+      },
       "dateCreated": "Mar 12, 2016 1:21:49 AM",
-      "status": "READY",
+      "dateStarted": "Mar 12, 2016 1:26:14 AM",
+      "dateFinished": "Mar 12, 2016 1:26:14 AM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {

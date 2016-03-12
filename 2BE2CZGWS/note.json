@@ -57,14 +57,14 @@
       "jobName": "paragraph_1457745622851_-1737353198",
       "id": "20160312-012022_2137126249",
       "result": {
-        "code": "SUCCESS",
+        "code": "ERROR",
         "type": "TEXT",
-        "msg": "virtualGetData: (sc: org.apache.spark.SparkContext, sqlContext: org.apache.spark.sql.SQLContext, hdfsfolders: String, startTime: String, endTime: String)org.apache.spark.rdd.RDD[((String, Long), Array[Double])]\n"
+        "msg": "\u003cconsole\u003e:19: error: \u0027)\u0027 expected but \u0027}\u0027 found.\n       }\n       ^\n"
       },
       "dateCreated": "Mar 12, 2016 1:20:22 AM",
-      "dateStarted": "Mar 12, 2016 1:21:49 AM",
-      "dateFinished": "Mar 12, 2016 1:21:52 AM",
-      "status": "FINISHED",
+      "dateStarted": "Mar 12, 2016 1:28:36 AM",
+      "dateFinished": "Mar 12, 2016 1:28:36 AM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {

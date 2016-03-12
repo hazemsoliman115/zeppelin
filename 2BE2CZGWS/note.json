@@ -62,8 +62,8 @@
         "msg": "virtualGetData: (sc: org.apache.spark.SparkContext, sqlContext: org.apache.spark.sql.SQLContext, hdfsfolders: String, startTime: String, endTime: String)org.apache.spark.rdd.RDD[((String, Long), Array[Double])]\n"
       },
       "dateCreated": "Mar 12, 2016 1:20:22 AM",
-      "dateStarted": "Mar 12, 2016 1:29:00 AM",
-      "dateFinished": "Mar 12, 2016 1:29:02 AM",
+      "dateStarted": "Mar 12, 2016 2:08:26 AM",
+      "dateFinished": "Mar 12, 2016 2:08:27 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

@@ -93,11 +93,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "hdfs: String \u003d hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/0/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/1/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/2/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/3/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/4/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/5/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/6/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/7/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/7/8/*,hdfs://monarch-master/user/ubuntu/monitoring...startTime: String \u003d 2016-03-07 00:00:00\nendTime: String \u003d 2016-03-07 23:00:00\n"
+        "msg": "hdfs: String \u003d hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/11/0/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/11/1/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/11/2/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/11/3/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/11/4/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/11/5/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/11/6/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/11/7/*,hdfs://monarch-master/user/ubuntu/monitoring/parquet/METER_NAME_HERE/2016/3/11/8/*,hdfs://monarch-master/user/ubuntu/m...startTime: String \u003d 2016-03-07 00:00:00\nendTime: String \u003d 2016-03-07 23:00:00\n"
       },
       "dateCreated": "Mar 12, 2016 1:21:49 AM",
-      "dateStarted": "Mar 12, 2016 1:26:40 AM",
-      "dateFinished": "Mar 12, 2016 1:26:41 AM",
+      "dateStarted": "Mar 12, 2016 2:07:06 AM",
+      "dateFinished": "Mar 12, 2016 2:07:07 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

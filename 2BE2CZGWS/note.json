@@ -1,7 +1,21 @@
 {
   "paragraphs": [
     {
-      "config": {},
+      "text": "\r\n\r\nimport breeze.numerics.sqrt\r\nimport ca.savitestbed.monarch.storage.HbaseDriver\r\nimport com.github.nscala_time.time.Imports._\r\nimport org.apache.spark.graphx.{Graph, Edge}\r\nimport org.apache.spark.mllib.linalg.{Vectors, Vector}\r\nimport org.apache.spark.rdd.RDD\r\nimport org.apache.spark.sql.{DataFrame, SQLContext}\r\nimport org.apache.spark.{SparkContext, SparkConf}\r\nimport ca.savitestbed.monarch.fileprocessor._\r\nimport org.apache.spark.SparkContext._\r\nimport org.apache.spark.mllib.clustering._\r\n",
+      "dateUpdated": "Mar 12, 2016 1:20:30 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
       "settings": {
         "params": {},
         "forms": {}

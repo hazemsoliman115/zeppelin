@@ -126,11 +126,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "res19: org.apache.spark.rdd.RDD[((String, Long), Array[Double])] \u003d MapPartitionsRDD[934] at map at \u003cconsole\u003e:64\n"
+        "msg": "res23: org.apache.spark.rdd.RDD[((String, Long), Array[Double])] \u003d MapPartitionsRDD[1048] at map at \u003cconsole\u003e:64\n"
       },
       "dateCreated": "Mar 12, 2016 1:26:14 AM",
-      "dateStarted": "Mar 12, 2016 2:18:45 AM",
-      "dateFinished": "Mar 12, 2016 2:24:04 AM",
+      "dateStarted": "Mar 12, 2016 2:52:49 AM",
+      "dateFinished": "Mar 12, 2016 2:55:12 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

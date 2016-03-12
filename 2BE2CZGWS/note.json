@@ -102,7 +102,21 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "config": {},
+      "text": "virtualGetData(sc, sqlContext, hdfspaths, startTime, endTime)\r\n",
+      "dateUpdated": "Mar 12, 2016 1:29:18 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
       "settings": {
         "params": {},
         "forms": {}
@@ -110,6 +124,18 @@
       "jobName": "paragraph_1457745974854_2147209615",
       "id": "20160312-012614_36109407",
       "dateCreated": "Mar 12, 2016 1:26:14 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457746158563_-2138651758",
+      "id": "20160312-012918_1528393981",
+      "dateCreated": "Mar 12, 2016 1:29:18 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }

@@ -123,8 +123,15 @@
       },
       "jobName": "paragraph_1457745974854_2147209615",
       "id": "20160312-012614_36109407",
+      "result": {
+        "code": "ERROR",
+        "type": "TEXT",
+        "msg": "\u003cconsole\u003e:55: error: not found: value hdfspaths\n              virtualGetData(sc, sqlContext, hdfspaths, startTime, endTime)\n                                             ^\n"
+      },
       "dateCreated": "Mar 12, 2016 1:26:14 AM",
-      "status": "READY",
+      "dateStarted": "Mar 12, 2016 1:29:18 AM",
+      "dateFinished": "Mar 12, 2016 1:29:18 AM",
+      "status": "ERROR",
       "progressUpdateIntervalMs": 500
     },
     {

@@ -35,7 +35,7 @@
     },
     {
       "text": "def virtualGetData(sc:SparkContext, sqlContext:SQLContext, hdfsfolders:String, startTime:String, endTime:String):RDD[((String, Long), Array[Double])]\u003d{\r\nval hdfspaths \u003d hdfsfolders.split(\",\")\r\nval rid_disctime__cpuutil \u003d VmCPUUtil.calculatePeriodAvgPerRidFromFile(sqlContext, hdfspaths, startTime, endTime)\r\n      .map(s \u003d\u003e ((s._1, s._2._1), s._2._2.toDouble)).coalesce(10)\r\nval rid_disctime__diskrb \u003d VmDiskReadByte.calculateDerivativePerRidFromFile(sqlContext, hdfspaths, startTime, endTime).coalesce(10)\r\nval rid_disctime__diskwb \u003d VmDiskWriteByte.calculateDerivativePerRidFromFile(sqlContext, hdfspaths, startTime, endTime).coalesce(10)\r\nval rid_disctime__netinbyte \u003d VmNetIncomingByte.calculateDerivativePerRidFromFile(sqlContext, hdfspaths, startTime, endTime).coalesce(10)\r\nval rid_disctime__netoutbyte \u003d VmNetOutgoingByte.calculateDerivativePerRidFromFile(sqlContext, hdfspaths, startTime, endTime).coalesce(10)\r\n// This section joins data by resource ID to create the training data set\r\n// The result dataset is organized as:\r\n// for each descrete time (resource_id, (cpu_util, disk Read, disk Write, netIn, netOut, OFInBW, OFOutBW))\r\nval rid_dt__2:RDD[((String, Long), Array[Double])] \u003d rid_disctime__cpuutil.join(rid_disctime__diskrb).filter(s \u003d\u003e s._2._1.isInstanceOf[Double] \u0026\u0026 s._2._2.isInstanceOf[Double]).map(s \u003d\u003e (s._1, Array[Double](s._2._1, s._2._2)))\r\nval rid_dt__3:RDD[((String, Long), Array[Double])] \u003d rid_dt__2.join(rid_disctime__diskwb).map(s \u003d\u003e (s._1, s._2._1 :+ s._2._2))\r\nval rid_dt__4:RDD[((String, Long), Array[Double])] \u003d rid_dt__3.join(rid_disctime__netinbyte).map(s \u003d\u003e (s._1, s._2._1 :+ s._2._2))\r\nval rid_dt__5:RDD[((String, Long), Array[Double])] \u003d rid_dt__4.join(rid_disctime__netoutbyte).map(s \u003d\u003e (s._1, s._2._1 :+ s._2._2))\r\nval resultData \u003d rid_dt__5\r\n//rid_dt__4.map(x \u003d\u003e (x._1,x._2.mkString(\" \")))\t\r\nresultData\r\n}\r\n",
-      "dateUpdated": "Mar 12, 2016 1:20:47 AM",
+      "dateUpdated": "Mar 12, 2016 1:21:49 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {
@@ -57,6 +57,18 @@
       "jobName": "paragraph_1457745622851_-1737353198",
       "id": "20160312-012022_2137126249",
       "dateCreated": "Mar 12, 2016 1:20:22 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1457745709153_-281308474",
+      "id": "20160312-012149_1782892233",
+      "dateCreated": "Mar 12, 2016 1:21:49 AM",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }

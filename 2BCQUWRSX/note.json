@@ -327,11 +327,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "[(\u002712144961\u0027, [\u003cnetworkx.classes.digraph.DiGraph object at 0x7f39a2c1d090\u003e, \u003cnetworkx.classes.digraph.DiGraph object at 0x7f39a2c1d750\u003e, \u003cnetworkx.classes.digraph.DiGraph object at 0x7f39a2c1dd50\u003e, \u003cnetworkx.classes.digraph.DiGraph object at 0x7f39a2c1da90\u003e])]\n"
+        "msg": "[(\u002712144961\u0027, [\u003cnetworkx.classes.digraph.DiGraph object at 0x7f39a2c1d9d0\u003e, \u003cnetworkx.classes.digraph.DiGraph object at 0x7f39a4919c90\u003e, \u003cnetworkx.classes.digraph.DiGraph object at 0x7f39a4919ad0\u003e, \u003cnetworkx.classes.digraph.DiGraph object at 0x7f39a2c5d310\u003e])]\n[(\u002712144961\u0027, [(\u003cnetworkx.classes.graph.Graph object at 0x7f39a2c1d890\u003e, 13), (\u003cnetworkx.classes.graph.Graph object at 0x7f39a2c1d350\u003e, 11), (\u003cnetworkx.classes.graph.Graph object at 0x7f39a2c1dc50\u003e, 7), (\u003cnetworkx.classes.graph.Graph object at 0x7f39a2c1d4d0\u003e, 4)])]\n"
       },
       "dateCreated": "Mar 18, 2016 7:37:05 PM",
-      "dateStarted": "Mar 18, 2016 8:03:12 PM",
-      "dateFinished": "Mar 18, 2016 8:03:14 PM",
+      "dateStarted": "Mar 18, 2016 8:03:28 PM",
+      "dateFinished": "Mar 18, 2016 8:03:31 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

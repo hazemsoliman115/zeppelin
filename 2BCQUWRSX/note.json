@@ -159,11 +159,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "graphPerT: org.apache.spark.rdd.RDD[breeze.linalg.DenseMatrix[Double]] \u003d MapPartitionsRDD[2381] at map at \u003cconsole\u003e:144\ngraphText: org.apache.spark.rdd.RDD[(Long, (Iterable[(String, Long, String)], Iterable[(String, (Long, Long), Double)]))] \u003d MapPartitionsRDD[2382] at map at \u003cconsole\u003e:143\n"
+        "msg": "graphPerT: org.apache.spark.rdd.RDD[breeze.linalg.DenseMatrix[Double]] \u003d MapPartitionsRDD[1259] at map at \u003cconsole\u003e:130\ngraphText: org.apache.spark.rdd.RDD[(Long, (Iterable[(String, Long, String)], Iterable[(String, (Long, Long), Double)]))] \u003d MapPartitionsRDD[1260] at map at \u003cconsole\u003e:129\n"
       },
       "dateCreated": "Mar 1, 2016 12:59:40 AM",
-      "dateStarted": "Mar 9, 2016 4:51:07 PM",
-      "dateFinished": "Mar 9, 2016 4:51:08 PM",
+      "dateStarted": "Mar 18, 2016 12:21:49 AM",
+      "dateFinished": "Mar 18, 2016 12:21:52 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },

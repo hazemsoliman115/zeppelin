@@ -136,7 +136,7 @@
     },
     {
       "text": "// (time, graph)\nval graphPerT \u003d graphelementsbytime.map(s \u003d\u003e MyFunctions.getLaplacEigen(s._2))\nval graphText \u003d graphelementsbytime.map(s \u003d\u003e (s._1, MyFunctions.Graphtxt(s._2)))",
-      "dateUpdated": "Mar 18, 2016 12:53:25 AM",
+      "dateUpdated": "Mar 18, 2016 12:59:47 AM",
       "config": {
         "colWidth": 12.0,
         "graph": {

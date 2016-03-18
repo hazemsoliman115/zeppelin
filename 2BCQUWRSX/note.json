@@ -302,8 +302,8 @@
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%pyspark\nprint(graph_strongly_connected_components_graph.take(1))\ngraph_strongly_connected_components_undirected \u003d graph_strongly_connected_components_graph.map(lambda s: (s[0],[(x.to_undirected(),nx.number_of_nodes(x)) for x in s[1]] ))\ngraph_strongly_connected_components_undirected_Lap \u003d graph_strongly_connected_components_undirected.map(lambda s: (s[0],[(x[0],build_Laplacian(x[0]),nx.number_of_nodes(x[0])) for x in s[1]] ))\ngraph_strongly_connected_components_undirected_Com \u003d  graph_strongly_connected_components_undirected_Lap.map(lambda s: (s[0],[(x[0],Get_Commute(x[1][0],x[1][1],x[1][2])) for x in s[1]] ))\nprint(graph_strongly_connected_components_undirected.take(1))\nprint(graph_strongly_connected_components_undirected_Lap.take(1))",
-      "dateUpdated": "Mar 18, 2016 9:28:50 PM",
+      "text": "%pyspark\nprint(graph_strongly_connected_components_graph.take(1))\ngraph_strongly_connected_components_undirected \u003d graph_strongly_connected_components_graph.map(lambda s: (s[0],[(x.to_undirected(),nx.number_of_nodes(x)) for x in s[1]] ))\ngraph_strongly_connected_components_undirected_Lap \u003d graph_strongly_connected_components_undirected.map(lambda s: (s[0],[(x[0],build_Laplacian(x[0]),nx.number_of_nodes(x[0])) for x in s[1]] ))\ngraph_strongly_connected_components_undirected_Com \u003d  graph_strongly_connected_components_undirected_Lap.map(lambda s: (s[0],[(x[0],Get_Commute(x[1][0],x[1][1],x[1][2])) for x in s[1]] ))\nprint(graph_strongly_connected_components_undirected.take(1))\nprint(graph_strongly_connected_components_undirected_Lap.take(1))\nprint(graph_strongly_connected_components_undirected_Com.take(1))",
+      "dateUpdated": "Mar 18, 2016 9:29:41 PM",
       "config": {
         "colWidth": 12.0,
         "graph": {

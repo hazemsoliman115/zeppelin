@@ -302,6 +302,18 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "jobName": "paragraph_1458329825301_-1573896650",
+      "id": "20160318-193705_794625981",
+      "dateCreated": "Mar 18, 2016 7:37:05 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "text": "%sql\nselect no_att, count(1) value\nfrom graph_strongly_connected_components_graph_atrributes_DF\ngroup by no_att \norder by no_att",
       "dateUpdated": "Mar 9, 2016 10:57:11 PM",
       "config": {

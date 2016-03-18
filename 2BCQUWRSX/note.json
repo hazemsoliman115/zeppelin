@@ -327,11 +327,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "[(\u002712144961\u0027, [\u003cnetworkx.classes.digraph.DiGraph object at 0x7f39a4927310\u003e, \u003cnetworkx.classes.digraph.DiGraph object at 0x7f39a3ffc390\u003e, \u003cnetworkx.classes.digraph.DiGraph object at 0x7f39a3ffcc10\u003e, \u003cnetworkx.classes.digraph.DiGraph object at 0x7f39a3ffcc90\u003e])]\n"
+        "msg": "[(\u002712144961\u0027, [\u003cnetworkx.classes.digraph.DiGraph object at 0x7f39a2c1d090\u003e, \u003cnetworkx.classes.digraph.DiGraph object at 0x7f39a2c1d750\u003e, \u003cnetworkx.classes.digraph.DiGraph object at 0x7f39a2c1dd50\u003e, \u003cnetworkx.classes.digraph.DiGraph object at 0x7f39a2c1da90\u003e])]\n"
       },
       "dateCreated": "Mar 18, 2016 7:37:05 PM",
-      "dateStarted": "Mar 18, 2016 8:03:04 PM",
-      "dateFinished": "Mar 18, 2016 8:03:06 PM",
+      "dateStarted": "Mar 18, 2016 8:03:12 PM",
+      "dateFinished": "Mar 18, 2016 8:03:14 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
